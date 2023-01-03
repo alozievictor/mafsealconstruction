@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html lang="en">
+        <head>       
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link rel="stylesheet" href="/css/index.css">
+            <link rel="stylesheet" href="/css/about.css">
+            <link rel="stylesheet" href="./styles/style.css" type="text/css" />
+            <link href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css" rel="stylesheet" type="text/css" />
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+            <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+            <title>About Page</title>
+        </head>
+    </html>   
+<body>
+    <div>
+        <%- include('./partials/nav.ejs')%>
+        <main class="w-full h-[60vh] bg-[#001f3f] py-[8%] md:py-[16%]">
+          <div class="md:flex w-1/2">
+            <div class="line w-[9%] bg-[#ffc631] my-2"></div>
+            <div class="w-[60%] pb-10 relative">
+              <p class="text-white font-medium md:mx-3">BUILDING COMMUNITIES.</p>
+              <h1 class="text-white font-bold text-6xl py-2">About</h1>
+              <ul class="flex items-center my-5 text-white">
+                <li class="">
+                    <a href="/">Home</a>
+                </li>
+                <div class="w-[7%] h-[2px] bg-white mx-5"></div>
+                <li>
+                    <a href="/about">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </main>
+        <section class="w-full bg-white">
+            <div class="md:w-[87%] mx-auto md:py-[100px] grid md:grid-cols-2 gap-10">
+                <div class="md:flex items-center">
+                  <div>
+                    <div class="flex items-center">
+                      <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>
+                      <p class="mx-2 font-semibold text-black">WHO WE ARE</p>
+                    </div>
+                    <h2 class="text-[42px] leading-tight my-5 font-bold text-black">Bringing <span class="text-[#0da574]">Your Ideas</span> <br> and Innovations to Life</h2>
+                    <div class="md:w-[80%] md:mb-8">
+                      <p class="text-[16px] text-justify text-gray-800 ">Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus</p>
+                    </div>
+                    <div class="mb-5 md:mb-10">
+                        <div class="flex items-center text-black my-2">
+                            <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
+                            <p class="ml-2">Building the future with ideas</p>
+                        </div>
+                        <div class="flex items-center text-black my-3">
+                            <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
+                            <p class="ml-2">Designing future with excellence</p>
+                        </div>
+                        <div class="flex items-center text-black my-3">
+                            <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
+                            <p class="ml-2">Discovering possibility concrete</p>
+                        </div>
+                        <div class="flex items-center text-black my-3">
+                            <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
+                            <p class="ml-2">Discovering possibility concrete</p>
+                        </div>
+                    </div>
+                    <a class="contBtn2 uppercase" href="">consult now</a>
+                  </div>
+                </div>
+                <div class="box-img py-2 h-[100vh]">
+                </div>
+              </div>
+        </section>
+        <section class="w-full bg-[#001f3f]">
+            <div class="md:w-[87%] mx-auto py[50px] md:py-[100px]">
+                <div class="flex items-center">
+                    <div class="h-[2px] w-[4%] bg-[#ffc631]"></div>
+                    <p class="mx-2 font-semibold text-white">WHO WE ARE</p>
+                </div>
+                <h2 class="text-[40px] leading-tight my-5 font-bold text-white">
+                    Pulvinar elementum integer enim neque volutpat ac. Amet dictum sit amet justo donec enim diam vulputate ut. Egestas sed sed risus pretium quam. Viverra accumsan in nisl nisi scelerisque eu</h2>
+                <p class="text-[#ffc631]">BENJAMIN MILLER</p>
+            </div>
+        </section>
+        <section class="w-full bg-white">
+            <div class="md:w-[87%] mx-auto py-[50px] md:py-[100px]">
+                <div class="flex items-center">
+                    <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>
+                    <p class="mx-2 font-semibold text-black">JUST FEEL THE FUTURE</p>
+                </div>
+                <h2 class="text-[42px] leading-tight mt-5 mb-10 font-bold text-black">Spotlight <span class="text-[#0da574]">Services</span></h2>
+                <div class="grid md:grid-cols-2 gap-10 md:gap-16">
+                    <div>
+                        <div class="box-img py-2 h-[75vh]">
+                        </div>
+                    </div>
+                    <div class="md:flex items-center">
+                      <div>
+                        <h2 class="text-[35px] leading-tight my-5 font-bold text-black">Electrical Engineering</h2>
+                        <div class="md:w-[80%] md:mb-8">
+                          <p class="text-[16px] text-justify text-gray-800 ">Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus</p>
+                        </div>
+                        <div class="mb-5 md:mb-10">
+                            <div class="flex items-center text-black my-2">
+                                <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
+                                <p class="ml-2">Building the future with ideas</p>
+                            </div>
+                            <div class="flex items-center text-black my-3">
+                                <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
+                                <p class="ml-2">Designing future with excellence</p>
+                            </div>
+                            <div class="flex items-center text-black my-3">
+                                <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
+                                <p class="ml-2">Discovering possibility concrete</p>
+                            </div>
+                        </div>
+                        <a class="contBtn2 uppercase" href="">consult now</a>
+                      </div>
+                    </div>
+            
+                  </div>
+            </div>
+        </section>
+        <section class="w-full bg-white">
+            <div class="md:w-[87%] mx-auto md:py-[100px]">
+              <div class="grid md:grid-cols-3 gap-5 my-4">
+                    <div class="transition-all">
+                      <div class="grid">
+                        <div class="flex items-center">
+                          <div class="h-[2px] w-[12%] bg-[#ffc631]"></div>
+                          <p class="mx-2 font-semibold text-black">WHY CHOOSE US</p>
+                        </div>
+                        <h2 class="text-[42px] leading-tight my-4 font-bold text-[#0da574]">Design <span class="text-black">Future <br> with Excellence</span></h2>
+                        <div>
+                          <div class="flex items-center text-black my-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#12B886;">
+                              <path d="M 20.292969 5.2929688 L 9 16.585938 L 4.7070312 12.292969 L 3.2929688 13.707031 L 9 19.414062 L 21.707031 6.7070312 L 20.292969 5.2929688 z"></path>
+                            </svg>
+                            <p class="ml-2">Building the future with ideas</p>
+                          </div>
+                          <div class="flex items-center text-black my-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#12B886;">
+                              <path d="M 20.292969 5.2929688 L 9 16.585938 L 4.7070312 12.292969 L 3.2929688 13.707031 L 9 19.414062 L 21.707031 6.7070312 L 20.292969 5.2929688 z"></path>
+                            </svg>
+                            <p class="ml-2">Designing future with excellence</p>
+                          </div>
+                          <div class="flex items-center text-black my-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#12B886;">
+                              <path d="M 20.292969 5.2929688 L 9 16.585938 L 4.7070312 12.292969 L 3.2929688 13.707031 L 9 19.414062 L 21.707031 6.7070312 L 20.292969 5.2929688 z"></path>
+                            </svg>
+                            <p class="ml-2">Discovering possibility concrete</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="box1 p-10">
+                      <div class=" w-10 h-10">
+                        <img class="w-14 h-14" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAADQElEQVR4nO2aT2sTQRjGn2e6iQhVRFpoIp68eC3UgzYqBW+CXopYb72oiK2kX8CbnmxRi9h6qAjqpVJE0GOxTepBxU+g1YpNQcH6B4Rks6+HJLY2m7ibzO62Zn63THZmnrw7786TdwcwGAwGg8FgaFEYxaQy29nuxGODDmQIABR4U+ULU+z7/DNsLaEGQGY7u2wrdp6UIQC7N3z9XQR3LfIaU8tLYWkKJQD5TKJHESMQ9gMSKzfPQzBWVpEGcLgsqQDKtCMYjadyr4LWFlgARKCKmeRxUIYBHCs3OyCfCngl1vvpxfrr8wvJbiWShvB0JUgEXovIjTZ75QH7YAehU3sAZLaz3bGsMw6RJrC/3Ox5eddIk3cUTio7PsG+96s69WoLgG7hzQbSK00HIOil6zeV/NJQAIIWVYsggu0rAGEtSw863NJtkcIJv+nmKQBhP5i8ouOG1A1AVFuTX5pJyaoARJXfuvB706oCYGcSc/jjyrAq4B2riJs8uvwxePn6kOfJvbZyLpI8C2BXuXneSuWOrL9OufUNXN0mwqSAzsGiQutD0HWCVt0Gg5hQBzqNkNtD0C87SQwXIYt2NvmkkN1zUMOYruQXkt12NnGvGIstkXIZ1UUV33hLAdcthW9JXHcEb0i54FbsaEvlHpNwmhFYyu/ESbeiiQhvKaJbBJcA2Vfu4mvr1vYQjPLv8KZyglEXRPQ7QZFJy1Hjfp1gvaXrVu+rVzdsJJW8OkHLre9fn6gaqhmUBOdmAMys/Tj0QzCggAE7k6guipZmLoB4GFlRNEgnGEZZXK8T1LwsK+h+MVI33SBj8d6Vl7X6GicY9oQ6ME7QOEHjBI0TrIVxgpX5tTnBBoncCW6joOBB58YG4wTXD7aVnOB88gSUjGB9uonzyFEYNU6wDi3vBM3r8UBF5Vbu8xSKzYxfN9jE1dih5YVmxg/niMz2X7fZ8/Wbz/Fqp5vCKHtzH3To3iqHpBrKby+EfUyuCPLZf31Mzo18tuuAcjACsh9r7nMODktOUEkaQMWi2hCZ/tf+rYtwj8rOdSRsxs/VdYIa89sL0RyWznTscBgfFHGGhBQFjivJTzH15UcUegwGg8FgMBhakt+LeKD9+3N4rwAAAABJRU5ErkJggg==" alt="icon">
+                      </div>
+                      <div class="my-5">
+                        <h3 class="text-black text-2xl font-bold py-3">Construction Services</h3>
+                        <p class="text-black ">Donec adipiscing tristique risus nec feugiat in. Porttitor massa id neque aliquam vestibulum morbi</p>
+                      </div>
+                    </div>
+                    <div class="box1 p-10">
+                      <div class=" w-10 h-10">
+                        <img class="w-20 h-14" src="data:image/png;base64,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" alt="icon">
+                      </div>
+                      <div class="my-5">
+                        <h3 class="text-blacktext-2xl font-bold py-3">Civil Engineering</h3>
+                        <p class="text-black ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                      </div>
+                    </div>
+                    <div class="box1 p-10">
+                      <div class=" w-10 h-10">
+                        <img class="w-14 h-14" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADfElEQVRoge2YT2gcdRTHP2+y6+ZQGm+JbYqlEhBSk1lTbHabQwLSSCIaDx6EFERIcq+KqAEvvfQP6jFbQhUsPQVsikRUJFGyu4FGZwOKglIqiamCYCp62CbO8zCz7W6a3Z3d7HYn635O8/v93pv5fee9+b3fb6CBv5BaT6AUNG4OIxIDFGFcItanmTGjhvMqHZEp4CDQjk0se2hvCYGmfAN7Rogmw88BbU6DVUTGs8f3xDeiS0dbsYMrQCvo6xJNXdhu4/uIqCJo8BLQCnxFJPXuTna+F0IifBplCPiTQOCUCPZOZr5OLY13HUWargPNqI7IidRsPlvfRkTn+5uRpitAMzBVSARAoKqTyS5gtk5IX2rOs3Po9vvAE8APPGS8Wsy8qqmlifAq0O42fyXdclgGFraK+sXN5xG5CqTBjkh0xSrmU7XU0nj3SZwqnOEgods/atJ8Wef782aCLoYPgEw7Dd72IgKqEBFVhGT4DeAMTiX+C/gHSAOHXasbqHGGkFyWY99sZvkaJMOfAU+jfEHUGhRBvTy3okJ0vnMfodAl0BdxNnbn6LXeEsHW5Z4gd+yXgEmgw3X5BfQ9Nv6ekqGf05owXwM5j/IHSrf0WesAmggXFCNRSyomRJfMDmz5GOgENkBOSfTbT+6zW+4JktZRxJ4EOeJ238RZndpwXsCIRKxrd30elBBNPPks6EfAw8D3GPqC9KZ+Kugz3x+geWMUlUngsayhWxK1DuTe3xEiUUvy9e/qY1dFNGm+Azrripghfae3mAgAGVjYkkjqQ9ItjwPr925K0VVtJ8qqI24EYiTZB+wH/gXeJGKd9fpxZpCBhS1dNMcwJIai23e1XilZiC51tWNrDMiEX1F7SE6sfF7OBADcQnmoXH/wKEQVg7j5DCIT2AyTfcBR1nYjolIUFKJf9zxCUF8hqWMYPOp2bwJzKCZAualQaXKE3N0bKTaiK2APogTd0RvANIHgB/LU9d9qMNeC5EYkc7gXADmE8/ZnMPQix1Nf5jsLbMfLul/edPNTKLXWMDaPSe93v1f6odVgW0QYR7mYud6tiHwFrBrkCHF/eO1qGawVvj0hlkpVT4jFqOSi0IhIJanEolCSkFrUB6/8v1PrQdYHr9RXRPyc+16pr4hk8GPue6VuItIQ4jcaQvxGQ4jfaAjxG7k/6DxWcj/a1U1E/gMJJkJW789qzAAAAABJRU5ErkJggg==" alt="icon">
+                      </div>
+                      <div class="my-5">
+                        <h3 class="text-black text-2xl font-bold py-3">Electrical Engineering</h3>
+                        <p class="text-black ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                      </div>    
+                    </div>
+                    <div class="box1 p-10">
+                      <div class=" w-10 h-10">
+                        <img class="w-20 h-14" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAIZUlEQVR4nO2af4xUVxXHP+fNsLuY2gWsRAv9YYGGIu7ODD9nZqFsAW1By9b+INFgYmoTNU2B1oAkxkI1MYAWYmtMrcaGxH9Ya7pQSCiFrmVnZul2dwYKhRJNU1hQq7azKLjD7rzjHzPAzNs3u2/em90/dL7/zNxzzz3ne847795373tQxf83xE6oscBKRHYhvEh//WZpbu8fa2KVgL6xpI66vs0oj2HqGmlK7bfqGLYjxcgC9Sgbqe3r0cScBaNNttLQxJwF1Pb1oGwE6jEM007PtgKuGVDzt8BdQBbVn3FlwtNuq0GPzv8U2YEWRBagGgJuB2qB8SgXQD9A5AwiBxgnB2Rud58rP9ev+vcAH3AKMb4p4e6jdvolE+DGmK2NWDCMsAm4FxjncNgAyD7IPiORY0nHvlxctGET4MWwJgK3ozwH8mWnAdiZAWnDlLXS1H22pJKHC2U/B1gg4e6jZOpDCFtzAtlAbd+hkoQSga+jkrIJ/s8IP0ZYgaF3kqkfT3ZwEln/NJB7QX4KnCx0DdqCYSY1EfpKSYI16YP5ex1Ut5GpDzmtUkcVUIh8NfwKSEskefeQ/ljwBwg/sojfRnlKosk3HfnoCKzA4IcghZOvIrpFwqktQ/TjwYPATYjx7XJuT3CRgOGgsdBmRJ8uEF1BWMfC5AsimBr//CSoaQHuB5kJOjVPoxc4hbIHc+AVWfTOxwCaCK1HdRvgv+5Etki0Z3OlOFcsARoLPoSwu8DmReCrEkke0nh4PJJ5EtUNwI0jmEoDW8nU75Tm9n6NBRcjtAETrrpCdI2EU7+rBO+KJECPzLsD30AK5JN50QCmLJWmniPa2TAV09cGhMo024VJizQlL2giuAxlP9dXkX/jyzbIguPve+XuaBIcEb7B7QXBA7KhIPhOyg8eYB5Cp3YEb5Zw8nWQ9QV9N5D1/cIj6xxTrwa0c04TpnmkQHJUIqmFGg+Ph/4O3AVfiC4y9YtZ0n6FRLDLYm+JRJJ/9GLcewWY+oTFZG4SlMyTeA8eYB41fWtFMIENlr71dgPKgacK0DeDn8ZPL1CTF52USHJ2frZ/n5EnPDt8CPoAJhMwZF9eliajn5PmVFrjwTPAjLw8i2ZvlujxD93G4K0C/NzH9eABye+2alpwG7xml0okFQfjowL5BOpYlffxSoHcB/6VLvxcg9dbIFLUEn0t/+9+F7ZywUePn9BYw2wMbSvqVcnZNMyDFp9NLnxdg9cEzC1qiX4AgHJXmXaKgxffIWCyRWcWAIOmdU/QWKavInhNwGeKWubAPwEQ/WwZNpwED+iU3G/mgqXjljJ8DYG/sKHxYAxrWQOodkg0tchm/E1FrQxXyvTvMPhhUW8ndBqLYem0PTVBREs4zxa1autyz/Yqfyker82ozgcKZ+sygzdyV964YUppnQI4jKWoAkpc5eHwMfCJAq+3AacReRf0zmtik0sSTXVprGFpPlDKv/J6ssCHlcMQOI3F6xxQfD+KNgOg7CmWy6saa5gt0eMn0OxSV2Uvuif/u9zSc841e7wmQHnb0n4IAMm0AYVnepMR36GrSXBxz6fppy3vY5Wl7x239MFrAoROi2SaxkL3SOTkR4hus/TlktARnKsdwbllTXgiP5HmVFpjjV8Ephf1Ke1u6YPXBGQH9wLF54Ki21Ux6J/wLFgqBCZj0IVBF85n+7fov/HnqhiIsdXSNwDZA6645+EpAbmTG9lrEYdIhL6bOzA1W4Be1w6Uc5g8IM3t/SRCTwABi8ZeL/sAqMRuUM3tgGWZ1B2aCC6TyLHzmCwA3irfsCRRo+nagQi6fYiKYexwxbnQhFcDEk11gfzeIvajtGpHY7M0JS+Qqb8b2ETxxFgKaUQ2kr4Ylqbus9oZWI7SimXJBtpkYXeHZ/5eDQBox5xbMcwkMMnSNYjyFJHkcyKoHvnCRPy+VaixCnQmkD8UpRf0FEIb/bRJcyqtipEre93O0OAv4vfPlvldnpZAqOihaGAlInvtbcoJMJ+RSKrVka1EcBkq20CDdt2gq53aGgkVPhYPbEXEempToMAZRNrQ7OuI/yyZ/twEWVd7C8qtiC5HaQGmlbah2ySa2lgpzpVNwO6HfUz902vAPZW0W4BD9E7/kjzSmh1Z1RnKSoAmAktAdqJyRiI9j9jqxBungPEu7k6EhkMfJrOkKWndDuf9BlsRZoCuk3DK8cORo1VAYw2TNR7chcphlEbQiaV0JXLsPKqbnBJwDOH7pYLPYyJKIyqHNR7cpbEGRw9awyZAFdF48BvgOwmsAfpR2UL6X8O/8T0/4wXgtBMCjqCc4dz0F4fVqTHuA10HXALWIL73NB5Yq7sf9g03rPQHErFAAEN+ibIwr7kfI/u407cxGg98DaQir68QWS3hnt2O/B6Zdwf+wedQVuTG0omp35FoKmVr2tZIR2gRhh4mt/72oqyTaPLlcjjrG0v81PadBco5HrPDeXqn31buxKex4IMIO8k9awwiPCjh5B6rXolbQP9DLvBnMS/PKjd4AGluHwReKnfcUCr6kptZX6LJlzEvzwLdAWRA6jxzqeJ/EBV9ELKDxoO/Bh51Ofw3Ekl+q5J8rKjM6/Fhoe95GFu5pbQERj8BYrgPQjlVQSa2GIMEmO4TIIaH6nGG0U/AQPYfrsfWyN8ryMQWo5+ASeYlD6MvV4xHFVVUUUUVVQzBqO8FADQeTDL0tdYIkKREeirxneGwGIO9AKC6b2SlIYNerTyRoRibBIwb9zzOXotdRRpjoCLfAo+EMUmAzO/6K+hjWL8pskcWkUdl4Ym/jTYvGKsKACSSakVZzfCVkEZZLeGeP4wZr7FydBX574sfB1YCM/Pi08A+BnleFidHfQNURRVVVHEV/wVjoli8yoADFAAAAABJRU5ErkJggg==" alt="icon">
+                      </div>
+                      <div class="my-5">
+                        <h3 class="text-black text-[23px] font-bold py-3">Chemistry and Metallurgy</h3>
+                        <p class="text-black ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                      </div>    
+                    </div>
+                    <div class="box1 p-10">
+                      <div class=" w-10 h-10">
+                        <img class="icon-img w-166 h-14" src="data:image/png;base64,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" alt="icon">
+                      </div>
+                      <div class="my-5">
+                        <h3 class="text-black text-2xl font-bold py-3">Specialty Services</h3>
+                        <p class="text-black ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="my-10">
+                    <iframe class="bg-black mx-auto" x-ref="player" src="/img/video.mov/ffff" width="100%" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="w-full bg-white">
+            <div class="md:w-[87%] mx-auto py-[50px] md:py-[100px]">
+                <div class="flex items-center">
+                    <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>
+                    <p class="mx-2 font-semibold text-black">OUR REVIEWS</p>
+                </div>
+                <h2 class="text-[42px] leading-tight mt-5 mb-10 font-bold text-black">What <span class="text-[#0da574]"> Our Clients</span> Say</h2>
+                <div class="grid md:grid-cols-2 gap-10 md:gap-16">
+                    <div>
+                        <div class="box-img py-2 h-[75vh]">
+                        </div>
+                    </div>
+                    <div class="md:flex items-center">
+                      <div>
+                        <h2 class="text-[35px] leading-tight my-5 font-bold text-black">Electrical Engineering</h2>
+                        <div class="md:w-[80%] md:mb-8">
+                          <p class="text-[16px] text-justify text-gray-800 ">Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus</p>
+                        </div>
+                        <div class="mb-5 md:mb-10">
+                            <div class="flex items-center text-black my-2">
+                                <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
+                                <p class="ml-2">Building the future with ideas</p>
+                            </div>
+                            <div class="flex items-center text-black my-3">
+                                <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
+                                <p class="ml-2">Designing future with excellence</p>
+                            </div>
+                            <div class="flex items-center text-black my-3">
+                                <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
+                                <p class="ml-2">Discovering possibility concrete</p>
+                            </div>
+                        </div>
+                        <a class="contBtn2 uppercase" href="">consult now</a>
+                      </div>
+                    </div>
+            
+                  </div>
+            </div>
+        </section>
+        <%- include('./partials/footer.ejs')%>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="./styles/style.css" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <title>Home page</title>
+  </head>
+</html>
+<!-- <%-include("./partials/header")-%> -->
+  <body class="w-full bg-white">
+    <div>
+      <%- include('./partials/nav.ejs')%>
+      <main class="w-full h-[] bg-[#001f3f] md:flex md:justify-between py-[32%] md:py-[20%]">
+        <div class="flex">
+          <div class="line w-[9%] bg-[#ffc631]"></div>
+          <div class="w-full md:w-[60%] pb-10 relative">
+            <p class="text-white font-medium md:mx-3">PROFESSIONAL. INNOVATIVE. RELIABLE.</p>
+            <h1 class="text-white font-bold text-4xl md:text-6xl py-2">Exceptional <br> Service Exceeding Expectations</h1>
+            <p class="hero-text text-[13px] md:text-base text-white py-2 mb-8">Our civil and structural team is committed to providing <br> sustainable, creative & efficient engineering solutions for our communities</p>
+            <a class="contBtn" href="">Consult Now</a>
+          </div>
+        </div>
+        <div class="mx-auto md:w-full">
+          <div class="md:text-center mb-5 md:mb-16">
+            <p class="text-[#ffc631] text-[38px] md:text-[40px] font-bold md:text-center">128+</p>
+            <span class="text-white font-semibold text-sm md:text-[18px] mb-5">Projects / Year</span>
+          </div>
+          <div class="md:text-center my-24 border">
+            <p class="text-[#ffc631] text-[38px] tmd:ext-[40px] font-bold md:text-center">4.253</p>
+            <span class="text-white font-semibold text-sm md:text-[18px] mb-2">Million euros <br> turnover in 2020</span>
+          </div>
+        </div>
+        <div></div>
+      </main>
+      <section class="w-full bg-white px-3 md:px-0">
+        <div class="md:w-[87%] mx-auto bg-white py-[80px] md:py-[100px]">
+            <div class="flex items-center">
+              <div class="h-[2px] w-[4%] bg-[#ffc631]"></div>
+              <p class="mx-2 text-sm md:text-base font-semibold">WHAT WE DO</p>
+            </div>
+            <h2 class="text-4xl md:text-[42px] leading-tight my-5 font-bold">Multi-Disciplined <br> Engineering <span class="text-[#0da574]">Solutions</span></h2>
+            <div class="grid md:grid-cols-3 gap-5 my-4">
+                <div class="border p-10 hover:border-[#0da574] transition-all">
+                  <div class=" w-10 h-10">
+                    <p class="text-4xl font-extrabold text-gray-300">01</p>
+                  </div>
+                  <div>
+                    <h3 class="text-black text-2xl font-bold py-3">Process Engineering</h3>
+                    <p class="text-gray-800 ">Senectus et netus et malesuada. Nunc pulvinar sapien et ligula ullamcorper malesuada proin</p>
+                  </div>
+                  <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+
+                </div>
+                <div class="border p-10 hover:border-[#0da574] transition-all">
+                  <div class=" w-10 h-10">
+                    <p class="text-4xl font-extrabold text-gray-300">02</p>
+                  </div>
+                  <div>
+                    <h3 class="text-black text-2xl font-bold py-3">Construction Services</h3>
+                    <p class="text-gray-800 ">Donec adipiscing tristique risus nec feugiat in. Porttitor massa id neque aliquam vestibulum morbi</p>
+                  </div>
+                  <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+
+                </div>
+                <div class="border p-10 hover:border-[#0da574] transition-all">
+                  <div class=" w-10 h-10">
+                    <p class="text-4xl font-extrabold text-gray-300">03</p>
+                  </div>
+                  <div>
+                    <h3 class="text-black text-2xl font-bold py-3">Civil Engineering</h3>
+                    <p class="text-gray-800 ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                  </div>
+                  <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+
+                </div>
+                <div class="border p-10 hover:border-[#0da574] transition-all">
+                  <div class=" w-10 h-10">
+                    <p class="text-4xl font-extrabold text-gray-300">04</p>
+                  </div>
+                  <div>
+                    <h3 class="text-black text-2xl font-bold py-3">Electrical Engineering</h3>
+                    <p class="text-gray-800 ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                  </div>
+                  <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+
+                </div>
+                <div class="border p-10 hover:border-[#0da574] transition-all">
+                  <div class=" w-10 h-10">
+                    <p class="text-4xl font-extrabold text-gray-300">05</p>
+                  </div>
+                  <div>
+                    <h3 class="text-black text-[23px] font-bold py-3">Chemistry and Metallurgy</h3>
+                    <p class="text-gray-800 ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                  </div>
+                  <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+
+                </div>
+                <div class="border p-10 hover:border-[#0da574] transition-all">
+                  <div class=" w-10 h-10">
+                    <p class="text-4xl font-extrabold text-gray-300">06</p>
+                  </div>
+                  <div>
+                    <h3 class="text-black text-2xl font-bold py-3">Specialty Services</h3>
+                    <p class="text-gray-800 ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                  </div>
+                  <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="w-full bg-[#001f3f] px-3 md:px-0">
+        <div class="md:w-[87%] mx-auto py-[80px] md:py-[100px]">
+          <div class="flex items-center">
+            <div class="h-[2px] w-[4%] bg-[#ffc631]"></div>
+            <p class="mx-2 text-sm md:text-base font-semibold text-white">WHAT WE DO</p>
+          </div>
+          <h2 class="text-4xl md:text-[42px] leading-tight my-5 font-bold text-white">Our <span class="text-[#0da574]">Projects</span></h2>
+          <div class="grid md:grid-cols-2 gap-10 my-4">
+            <div class="">
+              <div class="parent bg-no-repeat bg-cover bg-center bg-fixed overflow-hidden">
+                <div class="child "></div>
+              </div>
+              <div>
+                <h3 class="text-white text-2xl font-bold py-3">Process Engineering</h3>
+                <hr>
+                <div class="flex justify-between items-center my-3">
+                  <div class="flex items-center">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAACR0lEQVRIidWUP2gTcRTHP+8u6Z8lLaKbizZdJbkE1BQUsThJRQRbUXGLltZFHEREUOqqixS6+QccbCkUih1FIafYJqZrbd10qpAOFr02v+dwFynkrrlaB33D7+D93vt8v4/f8eB/D2lVoAu5vXjmOnAaSAfpT6jM0i6PJV9e/WMBdZ2zoE+AVETJGqpXpK86E8WwWsCnfLjOonISs57CrKeAfoRXQBci01rKnNnRBPo2u48Ey0AKkTtytPIg3ET2LnAPqGEn03L4w7d4E9gy0nDegOvrTLe6TlFdp6gLuS4AKXy8D8wB3dQ3RsJQ4QLCgG/RetSA0y4V0AnQCbx6pSGC8DDoGogvgPb4n+/zAHTIEHBgi4ODeDoIQNKaD5JpQiLqkTf8s9P2hcQ0VYjxc96PoCboiSmwFDjPA/DTvAT9vOV+haQ96YMTfo0EPTEF5gAwDALIiWqNNttBtYhqkTYrJ/nymk+QoWCCuTBQ+G/qOmnQJcAD0yOFxS+hde8P7cfYK0AStXqlr7wSawIpVJZBZoB21LoRMSWYxE2gDWE6DB4pENyMAYowrKVcT7P7TC/oVcBgdCwaExFypFIGngOdiI43u5dxoAPRp9JXre5YAIBN6xZQAz2lbvbCb/cl5xLQj78ibm+HaL2uS9nLCM+AGkoGu17H2IvAHtCLUqi+2JUAgL7LTqGcA94EPcdAJqVQOd+qNxFHgKR1Dc8UgONB5it2YjhO6/ZvEITky6vBBB6wiZGhsNW861DXGVXXGf3r4H86fgFD/s36HlSSaQAAAABJRU5ErkJggg==" alt="icon">
+                    <p class="text-white ml-2 text-[18px] font-light">Senectus et netus et malesuada. Nunc pulvina</p>
+                  </div>
+                  <div class="flex items-center">
+                    <a class="DetBtn flex items-center text-[#ffc631] uppercase my-4 text-[16px]" href="">Details</a>
+                    <img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAp0lEQVRIie2UQQrCMBBF/0gHj6U3KJ5CulA8SnGjnqLJBcRrmSn+bhTBRUikEdS+9cx/MDMJMPGVkBASklJbvRNuXlsAc9IaEXBUQe+qBQQbAGJer6TtYpJZrkBX/QVAA4AAtub1kDquLILTdXB6C04ZnB5/VyIvxdGLSOSk9fO6spf8cYru4T/Cs63WVUuKnO+9e63jX0U2JCR02hZ7WA9JsfCJ0RkA+ySJ2nlgSz8AAAAASUVORK5CYII=" alt="icon">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="parent bg-img1 bg-no-repeat bg-cover bg-center bg-fixed overflow-hidden">
+                <div class="child1"></div>
+              </div>
+              <div>
+                <h3 class="text-white text-2xl font-bold py-3">Process Engineering</h3>
+                <hr>
+                <div class="flex justify-between items-center my-3">
+                  <div class="flex items-center">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAACR0lEQVRIidWUP2gTcRTHP+8u6Z8lLaKbizZdJbkE1BQUsThJRQRbUXGLltZFHEREUOqqixS6+QccbCkUih1FIafYJqZrbd10qpAOFr02v+dwFynkrrlaB33D7+D93vt8v4/f8eB/D2lVoAu5vXjmOnAaSAfpT6jM0i6PJV9e/WMBdZ2zoE+AVETJGqpXpK86E8WwWsCnfLjOonISs57CrKeAfoRXQBci01rKnNnRBPo2u48Ey0AKkTtytPIg3ET2LnAPqGEn03L4w7d4E9gy0nDegOvrTLe6TlFdp6gLuS4AKXy8D8wB3dQ3RsJQ4QLCgG/RetSA0y4V0AnQCbx6pSGC8DDoGogvgPb4n+/zAHTIEHBgi4ODeDoIQNKaD5JpQiLqkTf8s9P2hcQ0VYjxc96PoCboiSmwFDjPA/DTvAT9vOV+haQ96YMTfo0EPTEF5gAwDALIiWqNNttBtYhqkTYrJ/nymk+QoWCCuTBQ+G/qOmnQJcAD0yOFxS+hde8P7cfYK0AStXqlr7wSawIpVJZBZoB21LoRMSWYxE2gDWE6DB4pENyMAYowrKVcT7P7TC/oVcBgdCwaExFypFIGngOdiI43u5dxoAPRp9JXre5YAIBN6xZQAz2lbvbCb/cl5xLQj78ibm+HaL2uS9nLCM+AGkoGu17H2IvAHtCLUqi+2JUAgL7LTqGcA94EPcdAJqVQOd+qNxFHgKR1Dc8UgONB5it2YjhO6/ZvEITky6vBBB6wiZGhsNW861DXGVXXGf3r4H86fgFD/s36HlSSaQAAAABJRU5ErkJggg==" alt="icon">
+                    <p class="text-white ml-2 text-[18px] font-light">Senectus et netus et malesuada. Nunc pulvina</p>
+                  </div>
+                  <div class="flex items-center">
+                    <a class="DetBtn flex items-center text-[#ffc631] uppercase my-4 text-[16px]" href="">Details</a>
+                    <img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAp0lEQVRIie2UQQrCMBBF/0gHj6U3KJ5CulA8SnGjnqLJBcRrmSn+bhTBRUikEdS+9cx/MDMJMPGVkBASklJbvRNuXlsAc9IaEXBUQe+qBQQbAGJer6TtYpJZrkBX/QVAA4AAtub1kDquLILTdXB6C04ZnB5/VyIvxdGLSOSk9fO6spf8cYru4T/Cs63WVUuKnO+9e63jX0U2JCR02hZ7WA9JsfCJ0RkA+ySJ2nlgSz8AAAAASUVORK5CYII=" alt="icon">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="parent bg-img1 bg-no-repeat bg-cover bg-center bg-fixed overflow-hidden">
+                <div class="child2"></div>
+              </div>
+              <div>
+                <h3 class="text-white text-2xl font-bold py-3">Process Engineering</h3>
+                <hr>
+                <div class="flex justify-between items-center my-3">
+                  <div class="flex items-center">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAACR0lEQVRIidWUP2gTcRTHP+8u6Z8lLaKbizZdJbkE1BQUsThJRQRbUXGLltZFHEREUOqqixS6+QccbCkUih1FIafYJqZrbd10qpAOFr02v+dwFynkrrlaB33D7+D93vt8v4/f8eB/D2lVoAu5vXjmOnAaSAfpT6jM0i6PJV9e/WMBdZ2zoE+AVETJGqpXpK86E8WwWsCnfLjOonISs57CrKeAfoRXQBci01rKnNnRBPo2u48Ey0AKkTtytPIg3ET2LnAPqGEn03L4w7d4E9gy0nDegOvrTLe6TlFdp6gLuS4AKXy8D8wB3dQ3RsJQ4QLCgG/RetSA0y4V0AnQCbx6pSGC8DDoGogvgPb4n+/zAHTIEHBgi4ODeDoIQNKaD5JpQiLqkTf8s9P2hcQ0VYjxc96PoCboiSmwFDjPA/DTvAT9vOV+haQ96YMTfo0EPTEF5gAwDALIiWqNNttBtYhqkTYrJ/nymk+QoWCCuTBQ+G/qOmnQJcAD0yOFxS+hde8P7cfYK0AStXqlr7wSawIpVJZBZoB21LoRMSWYxE2gDWE6DB4pENyMAYowrKVcT7P7TC/oVcBgdCwaExFypFIGngOdiI43u5dxoAPRp9JXre5YAIBN6xZQAz2lbvbCb/cl5xLQj78ibm+HaL2uS9nLCM+AGkoGu17H2IvAHtCLUqi+2JUAgL7LTqGcA94EPcdAJqVQOd+qNxFHgKR1Dc8UgONB5it2YjhO6/ZvEITky6vBBB6wiZGhsNW861DXGVXXGf3r4H86fgFD/s36HlSSaQAAAABJRU5ErkJggg==" alt="icon">
+                    <p class="text-white ml-2 text-[18px] font-light">Senectus et netus et malesuada. Nunc pulvina</p>
+                  </div>
+                  <div class="flex items-center">
+                    <a class="DetBtn flex items-center text-[#ffc631] uppercase my-4 text-[16px]" href="">Details</a>
+                    <img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAp0lEQVRIie2UQQrCMBBF/0gHj6U3KJ5CulA8SnGjnqLJBcRrmSn+bhTBRUikEdS+9cx/MDMJMPGVkBASklJbvRNuXlsAc9IaEXBUQe+qBQQbAGJer6TtYpJZrkBX/QVAA4AAtub1kDquLILTdXB6C04ZnB5/VyIvxdGLSOSk9fO6spf8cYru4T/Cs63WVUuKnO+9e63jX0U2JCR02hZ7WA9JsfCJ0RkA+ySJ2nlgSz8AAAAASUVORK5CYII=" alt="icon">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="parent bg-img1 bg-no-repeat bg-cover bg-center bg-fixed overflow-hidden">
+                <div class="child3"></div>
+              </div>
+              <div>
+                <h3 class="text-white text-2xl font-bold py-3">Process Engineering</h3>
+                <hr>
+                <div class="flex justify-between items-center my-3">
+                  <div class="flex items-center">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAACR0lEQVRIidWUP2gTcRTHP+8u6Z8lLaKbizZdJbkE1BQUsThJRQRbUXGLltZFHEREUOqqixS6+QccbCkUih1FIafYJqZrbd10qpAOFr02v+dwFynkrrlaB33D7+D93vt8v4/f8eB/D2lVoAu5vXjmOnAaSAfpT6jM0i6PJV9e/WMBdZ2zoE+AVETJGqpXpK86E8WwWsCnfLjOonISs57CrKeAfoRXQBci01rKnNnRBPo2u48Ey0AKkTtytPIg3ET2LnAPqGEn03L4w7d4E9gy0nDegOvrTLe6TlFdp6gLuS4AKXy8D8wB3dQ3RsJQ4QLCgG/RetSA0y4V0AnQCbx6pSGC8DDoGogvgPb4n+/zAHTIEHBgi4ODeDoIQNKaD5JpQiLqkTf8s9P2hcQ0VYjxc96PoCboiSmwFDjPA/DTvAT9vOV+haQ96YMTfo0EPTEF5gAwDALIiWqNNttBtYhqkTYrJ/nymk+QoWCCuTBQ+G/qOmnQJcAD0yOFxS+hde8P7cfYK0AStXqlr7wSawIpVJZBZoB21LoRMSWYxE2gDWE6DB4pENyMAYowrKVcT7P7TC/oVcBgdCwaExFypFIGngOdiI43u5dxoAPRp9JXre5YAIBN6xZQAz2lbvbCb/cl5xLQj78ibm+HaL2uS9nLCM+AGkoGu17H2IvAHtCLUqi+2JUAgL7LTqGcA94EPcdAJqVQOd+qNxFHgKR1Dc8UgONB5it2YjhO6/ZvEITky6vBBB6wiZGhsNW861DXGVXXGf3r4H86fgFD/s36HlSSaQAAAABJRU5ErkJggg==" alt="icon">
+                    <p class="text-white ml-2 text-[18px] font-light">Senectus et netus et malesuada. Nunc pulvina</p>
+                  </div>
+                  <div class="flex items-center">
+                    <a class="DetBtn flex items-center text-[#ffc631] uppercase my-4 text-[16px]" href="">Details</a>
+                    <img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAp0lEQVRIie2UQQrCMBBF/0gHj6U3KJ5CulA8SnGjnqLJBcRrmSn+bhTBRUikEdS+9cx/MDMJMPGVkBASklJbvRNuXlsAc9IaEXBUQe+qBQQbAGJer6TtYpJZrkBX/QVAA4AAtub1kDquLILTdXB6C04ZnB5/VyIvxdGLSOSk9fO6spf8cYru4T/Cs63WVUuKnO+9e63jX0U2JCR02hZ7WA9JsfCJ0RkA+ySJ2nlgSz8AAAAASUVORK5CYII=" alt="icon">
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section class="w-full bg-white px-3 md:px-1">
+        <div class="md:w-[87%] mx-auto py-[80px] md:py-[100px] grid md:grid-cols-2 gap-10">
+          <div class="">
+            <div class="flex items-center">
+              <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>
+              <p class="mx-2 font-semibold text-black">WHAT WE DO</p>
+            </div>
+            <h2 class="text-[38px] leading-tight my-5 font-bold text-[#0da574]">Our Project <span class="text-black">in the World</span></h2>
+            <div class="md:pt-3">
+              <img src="/img/map.svg" alt="">
+            </div>
+          </div>
+          <div class="px-3 py-2">
+            <p class="text-[17px] text-gray-800">We are builders. We have an envilable track record in the numerous jobs we have excuted. This include building construction works, renovation and associated civil works like drainages, walkway, driveways, culverts and krebs.</p>
+            <div class="mt-5 md:mt-10">
+              <p class="text-[#0da574] text-7xl font-bold">200+</p>
+              <span class="text-gray-800 font-semibold text-[18px] mb-2">Active Projects in Civil <br> Engineering</span>
+            </div>
+            <div class="mb-5 mt-3 md:mt-6 md:mb-16">
+              <p class="text-[#0da574] text-7xl font-bold">99%</p>
+              <span class="text-gray-800 font-semibold text-[18px] mb-2">Building Control Approval <br> Rate</span>
+            </div>
+            <a class="contBtn2 w-full uppercase" href="">About Company</a>
+          </div>
+        </div>
+      </section>
+      <section class="w-full bg-[#001f3f]">
+        <div class="md:w-[87%] mx-auto md:py-[100px]">
+          <div class="grid md:grid-cols-3 gap-5 my-4">
+                <div class="transition-all">
+                  <div class="grid">
+                    <div class="flex items-center">
+                      <div class="h-[2px] w-[12%] bg-[#ffc631]"></div>
+                      <p class="mx-2 font-semibold text-white">WHY CHOOSE US</p>
+                    </div>
+                    <h2 class="text-[42px] leading-tight my-5 font-bold text-[#0da574]">Design <span class="text-white">Future <br> with Excellence</span></h2>
+                    <div>
+                      <div class="flex items-center text-white my-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#12B886;">
+                          <path d="M 20.292969 5.2929688 L 9 16.585938 L 4.7070312 12.292969 L 3.2929688 13.707031 L 9 19.414062 L 21.707031 6.7070312 L 20.292969 5.2929688 z"></path>
+                        </svg>
+                        <p class="ml-2">Building the future with ideas</p>
+                      </div>
+                      <div class="flex items-center text-white my-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#12B886;">
+                          <path d="M 20.292969 5.2929688 L 9 16.585938 L 4.7070312 12.292969 L 3.2929688 13.707031 L 9 19.414062 L 21.707031 6.7070312 L 20.292969 5.2929688 z"></path>
+                        </svg>
+                        <p class="ml-2">Designing future with excellence</p>
+                      </div>
+                      <div class="flex items-center text-white my-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#12B886;">
+                          <path d="M 20.292969 5.2929688 L 9 16.585938 L 4.7070312 12.292969 L 3.2929688 13.707031 L 9 19.414062 L 21.707031 6.7070312 L 20.292969 5.2929688 z"></path>
+                        </svg>
+                        <p class="ml-2">Discovering possibility concrete</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box p-10">
+                  <div class=" w-10 h-10">
+                    <img class="w-14 h-14" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAADQElEQVR4nO2aT2sTQRjGn2e6iQhVRFpoIp68eC3UgzYqBW+CXopYb72oiK2kX8CbnmxRi9h6qAjqpVJE0GOxTepBxU+g1YpNQcH6B4Rks6+HJLY2m7ibzO62Zn63THZmnrw7786TdwcwGAwGg8FgaFEYxaQy29nuxGODDmQIABR4U+ULU+z7/DNsLaEGQGY7u2wrdp6UIQC7N3z9XQR3LfIaU8tLYWkKJQD5TKJHESMQ9gMSKzfPQzBWVpEGcLgsqQDKtCMYjadyr4LWFlgARKCKmeRxUIYBHCs3OyCfCngl1vvpxfrr8wvJbiWShvB0JUgEXovIjTZ75QH7YAehU3sAZLaz3bGsMw6RJrC/3Ox5eddIk3cUTio7PsG+96s69WoLgG7hzQbSK00HIOil6zeV/NJQAIIWVYsggu0rAGEtSw863NJtkcIJv+nmKQBhP5i8ouOG1A1AVFuTX5pJyaoARJXfuvB706oCYGcSc/jjyrAq4B2riJs8uvwxePn6kOfJvbZyLpI8C2BXuXneSuWOrL9OufUNXN0mwqSAzsGiQutD0HWCVt0Gg5hQBzqNkNtD0C87SQwXIYt2NvmkkN1zUMOYruQXkt12NnGvGIstkXIZ1UUV33hLAdcthW9JXHcEb0i54FbsaEvlHpNwmhFYyu/ESbeiiQhvKaJbBJcA2Vfu4mvr1vYQjPLv8KZyglEXRPQ7QZFJy1Hjfp1gvaXrVu+rVzdsJJW8OkHLre9fn6gaqhmUBOdmAMys/Tj0QzCggAE7k6guipZmLoB4GFlRNEgnGEZZXK8T1LwsK+h+MVI33SBj8d6Vl7X6GicY9oQ6ME7QOEHjBI0TrIVxgpX5tTnBBoncCW6joOBB58YG4wTXD7aVnOB88gSUjGB9uonzyFEYNU6wDi3vBM3r8UBF5Vbu8xSKzYxfN9jE1dih5YVmxg/niMz2X7fZ8/Wbz/Fqp5vCKHtzH3To3iqHpBrKby+EfUyuCPLZf31Mzo18tuuAcjACsh9r7nMODktOUEkaQMWi2hCZ/tf+rYtwj8rOdSRsxs/VdYIa89sL0RyWznTscBgfFHGGhBQFjivJTzH15UcUegwGg8FgMBhakt+LeKD9+3N4rwAAAABJRU5ErkJggg==" alt="icon">
+                  </div>
+                  <div class="my-5">
+                    <h3 class="text-white text-2xl font-bold py-3">Construction Services</h3>
+                    <p class="text-white ">Donec adipiscing tristique risus nec feugiat in. Porttitor massa id neque aliquam vestibulum morbi</p>
+                  </div>
+                  <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+
+                </div>
+                <div class="box p-10">
+                  <div class=" w-10 h-10">
+                    <img class="w-20 h-14" src="data:image/png;base64,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" alt="icon">
+                  </div>
+                  <div class="my-5">
+                    <h3 class="text-white text-2xl font-bold py-3">Civil Engineering</h3>
+                    <p class="text-white ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                  </div>
+                  <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+
+                </div>
+                <div class="box p-10">
+                  <div class=" w-10 h-10">
+                    <img class="w-14 h-14" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADfElEQVRoge2YT2gcdRTHP2+y6+ZQGm+JbYqlEhBSk1lTbHabQwLSSCIaDx6EFERIcq+KqAEvvfQP6jFbQhUsPQVsikRUJFGyu4FGZwOKglIqiamCYCp62CbO8zCz7W6a3Z3d7HYn635O8/v93pv5fee9+b3fb6CBv5BaT6AUNG4OIxIDFGFcItanmTGjhvMqHZEp4CDQjk0se2hvCYGmfAN7Rogmw88BbU6DVUTGs8f3xDeiS0dbsYMrQCvo6xJNXdhu4/uIqCJo8BLQCnxFJPXuTna+F0IifBplCPiTQOCUCPZOZr5OLY13HUWargPNqI7IidRsPlvfRkTn+5uRpitAMzBVSARAoKqTyS5gtk5IX2rOs3Po9vvAE8APPGS8Wsy8qqmlifAq0O42fyXdclgGFraK+sXN5xG5CqTBjkh0xSrmU7XU0nj3SZwqnOEgods/atJ8Wef782aCLoYPgEw7Dd72IgKqEBFVhGT4DeAMTiX+C/gHSAOHXasbqHGGkFyWY99sZvkaJMOfAU+jfEHUGhRBvTy3okJ0vnMfodAl0BdxNnbn6LXeEsHW5Z4gd+yXgEmgw3X5BfQ9Nv6ekqGf05owXwM5j/IHSrf0WesAmggXFCNRSyomRJfMDmz5GOgENkBOSfTbT+6zW+4JktZRxJ4EOeJ238RZndpwXsCIRKxrd30elBBNPPks6EfAw8D3GPqC9KZ+Kugz3x+geWMUlUngsayhWxK1DuTe3xEiUUvy9e/qY1dFNGm+Azrripghfae3mAgAGVjYkkjqQ9ItjwPr925K0VVtJ8qqI24EYiTZB+wH/gXeJGKd9fpxZpCBhS1dNMcwJIai23e1XilZiC51tWNrDMiEX1F7SE6sfF7OBADcQnmoXH/wKEQVg7j5DCIT2AyTfcBR1nYjolIUFKJf9zxCUF8hqWMYPOp2bwJzKCZAualQaXKE3N0bKTaiK2APogTd0RvANIHgB/LU9d9qMNeC5EYkc7gXADmE8/ZnMPQix1Nf5jsLbMfLul/edPNTKLXWMDaPSe93v1f6odVgW0QYR7mYud6tiHwFrBrkCHF/eO1qGawVvj0hlkpVT4jFqOSi0IhIJanEolCSkFrUB6/8v1PrQdYHr9RXRPyc+16pr4hk8GPue6VuItIQ4jcaQvxGQ4jfaAjxG7k/6DxWcj/a1U1E/gMJJkJW789qzAAAAABJRU5ErkJggg==" alt="icon">
+                  </div>
+                  <div class="my-5">
+                    <h3 class="text-white text-2xl font-bold py-3">Electrical Engineering</h3>
+                    <p class="text-white ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                  </div>
+                  <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+
+                </div>
+                <div class="box p-10">
+                  <div class=" w-10 h-10">
+                    <img class="w-20 h-14" src="data:image/png;base64,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" alt="icon">
+                  </div>
+                  <div class="my-5">
+                    <h3 class="text-white text-[23px] font-bold py-3">Chemistry and Metallurgy</h3>
+                    <p class="text-white ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                  </div>
+                  <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+
+                </div>
+                <div class="box p-10">
+                  <div class=" w-10 h-10">
+                    <img class="w-166 h-14" src="data:image/png;base64,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" alt="icon">
+                  </div>
+                  <div class="my-5">
+                    <h3 class="text-white text-2xl font-bold py-3">Specialty Services</h3>
+                    <p class="text-white ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                  </div>
+                  <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="w-full bg-[#001f3f]">
+        <div class="md:w-[87%] mx-auto md:py-[100px]">
+          <div class="flex items-center">
+            <div class="h-[2px] w-[4%] bg-[#ffc631]"></div>
+            <p class="mx-2 font-semibold text-white">TRUTH IN ENGINEERING</p>
+          </div>
+          <div class="md:flex justify-between items-center">
+            <h2 class="text-[42px] leading-tight my-5 font-bold text-[#0da574]">Our Team <span class="text-white">is Responsible <br> for The Best Construction</span></h2>
+            <a class="contBtn2 uppercase" href="">Our Team</a>
+          </div>
+          <div>
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/z4nO6NuEM3A?start=48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <iframe class="bg-black mx-auto" x-ref="player" src="/img/video.mov/ffff" width="100%" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+          </div>
+          <div class="grid md:grid-cols-2 gap-12">
+            <div class="my-5 md:my-8">
+              <p class="text-[16px] text-white text-justify ">We take community into considreration in the areas of employment and supply of materials. as this will reduce tension among the workers and the host community and ensure successful and timely completion of project</p>
+              <div class="mt-3 md:mt-8 pb-3">
+                <div class="flex items-center text-white my-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#ffc631;">
+                    <path d="M 19.980469 5.9902344 A 1.0001 1.0001 0 0 0 19.292969 6.2929688 L 9 16.585938 L 5.7070312 13.292969 A 1.0001 1.0001 0 1 0 4.2929688 14.707031 L 8.2929688 18.707031 A 1.0001 1.0001 0 0 0 9.7070312 18.707031 L 20.707031 7.7070312 A 1.0001 1.0001 0 0 0 19.980469 5.9902344 z"></path>
+                  </svg>
+                  <p class="ml-2">Ingenuity for life</p>
+                </div>
+                  <div class="flex items-center text-white my-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#ffc631;">
+                    <path d="M 19.980469 5.9902344 A 1.0001 1.0001 0 0 0 19.292969 6.2929688 L 9 16.585938 L 5.7070312 13.292969 A 1.0001 1.0001 0 1 0 4.2929688 14.707031 L 8.2929688 18.707031 A 1.0001 1.0001 0 0 0 9.7070312 18.707031 L 20.707031 7.7070312 A 1.0001 1.0001 0 0 0 19.980469 5.9902344 z"></path>
+                  </svg>
+                  <p class="ml-2">Lets you shine with skill</p>
+                </div>
+                  <div class="flex items-center text-white my-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#ffc631;">
+                    <path d="M 19.980469 5.9902344 A 1.0001 1.0001 0 0 0 19.292969 6.2929688 L 9 16.585938 L 5.7070312 13.292969 A 1.0001 1.0001 0 1 0 4.2929688 14.707031 L 8.2929688 18.707031 A 1.0001 1.0001 0 0 0 9.7070312 18.707031 L 20.707031 7.7070312 A 1.0001 1.0001 0 0 0 19.980469 5.9902344 z"></path>
+                  </svg>
+                  <p class="ml-2">Make science your obedient servant</p>
+                </div>
+                  <div class="flex items-center text-white my-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#ffc631;">
+                    <path d="M 19.980469 5.9902344 A 1.0001 1.0001 0 0 0 19.292969 6.2929688 L 9 16.585938 L 5.7070312 13.292969 A 1.0001 1.0001 0 1 0 4.2929688 14.707031 L 8.2929688 18.707031 A 1.0001 1.0001 0 0 0 9.7070312 18.707031 L 20.707031 7.7070312 A 1.0001 1.0001 0 0 0 19.980469 5.9902344 z"></path>
+                  </svg>
+                  <p class="ml-2">Development of Electrical Schematics</p>
+                </div>
+              </div>
+            </div>
+            <div class="border my-5 md:my-8">
+              <div class="bg-gray-400 h-full p-5 md:p-10">
+                <p class="text-[23px] font-semibold">A manager of men and resources of immeasurable ability to coordinate activities involving extensive operation.</p>
+                <div class="flex justify-between items-center mt-5">
+                  <div class="flex items-center">
+                    <img class="w-12 h-12 md:w-20 md:h-20 rounded-full border" src="/img/Mask.png" alt="image">
+                    <div class="ml-3 md:ml-6">
+                      <p class="font-light">ENGR. Matthew Akinkunmi Fabiyi</p>
+                      <p class="font-semibold">Direactor Mafseal Construction</p>
+                    </div>
+                  </div>
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAABVklEQVRoge2YvU4CQRSFzzVUtjYSn8JslGRde0NnaeOL8AC+ia3hCUwwYEQDWNFZ+VPRGBt1d66VHThzZy5xNPerCLlzznzZLJMBMAzDMAwD9P2BR7usGlxOadn36+rZ0Az9TUwkN0wkN0wkN0wkN0wkN0wkN0wkN0wkN0wkN5beq32E3LtX3dnX1fNvnohYhO+KzYCx14i9JPXIn8g72v4hehHnJvbIRajp+If4SZyb2BPzjpz4N8GDiNykHpEIXxcdgLreQYe+JFejJ1iEx3vb4OY8YM2cDmaz0FytnpY3+GZ/C/VnF3V9BtCOfyvU88/o9/x4aEX84TykcloJ16j0aB6ICzStU8U8UY+WyAccHdPh7YNSnrhHQ2QB546omlwpZEX3pIoMwSiour9MzEnu8f5qrWAOUI/KyUXkevWeEJE3AI8AnkE8gEM/5ZzIoMcwjL/MF1KriUis0ndUAAAAAElFTkSuQmCC" alt="icon">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-full bg-white">
+        <div class="md:w-[87%] mx-auto md:py-[100px] grid md:grid-cols-2 gap-10">
+          <div class="md:flex items-center">
+            <div>
+              <div class="flex items-center">
+                <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>
+                <p class="mx-2 font-semibold text-black">DEALING WITH YOUR WORRIES</p>
+              </div>
+              <h2 class="text-[42px] leading-tight my-5 font-bold text-black">If Your Question Is Not <br> Here <span class="text-[#0da574]">Contact Us</span></h2>
+              <div class="md:w-[80%] md:mb-10">
+                <p class="text-[16px] text-justify text-gray-800 ">Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus</p>
+              </div>
+              <a class="contBtn2 uppercase" href="">contact us</a>
+            </div>
+          </div>
+          <div class="px-3 py-2">
+            <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 p-2 my-3 md:my-8">
+              <div class="collapse-title text-2xl font-bold text-black">
+                Focus me to see content
+              </div>
+              <div class="collapse-content"> 
+                <p>Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Non quam lacus suspendisse faucibus interdum posuere lorem. Ut diam quam nulla porttitor.</p>
+              </div>
+            </div>
+
+            <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 p-2 my-3 md:my-8">
+              <div class="collapse-title text-2xl font-bold text-black">
+                Focus me to see content
+              </div>
+              <div class="collapse-content"> 
+                <p>Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Non quam lacus suspendisse faucibus interdum posuere lorem. Ut diam quam nulla porttitor.</p>
+              </div>
+            </div>
+
+            <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 p-2 my-3 md:my-8">
+              <div class="collapse-title text-2xl font-bold text-black">
+                Focus me to see content
+              </div>
+              <div class="collapse-content"> 
+                <p>Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Non quam lacus suspendisse faucibus interdum posuere lorem. Ut diam quam nulla porttitor.</p>
+              </div>
+            </div>
+
+            <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 p-2 my-3 md:my-8">
+              <div class="collapse-title text-2xl font-bold text-black">
+                Focus me to see content
+              </div>
+              <div class="collapse-content"> 
+                <p>Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Non quam lacus suspendisse faucibus interdum posuere lorem. Ut diam quam nulla porttitor.</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section class="w-full bg-white">
+        <div class="md:w-[87%] mx-auto md:py-[70px] grid md:grid-cols-3 gap-7 md:gap-40">
+          <div class="col-span-2">
+            <div class="flex items-center">
+              <div class="h-[2px] w-[5%] bg-[#ffc631]"></div>
+              <p class="mx-2 font-semibold text-black">CONTACT US</p>
+            </div>
+            <h2 class="text-[42px] leading-tight my-5 font-bold text-black">Do You Have <br> any <span class="text-[#0da574]">Questions?</span></h2>
+            <div class=" my-4 md:my-8">
+              <form action="" class="mb-4 bg-white rounded">
+                <div class="md:mb-8 grid md:grid-cols-2 gap-5">
+                  <div class="formDiv py-2">
+                    <input
+                      class="w-full px-3 py-2 text-base leading-tight text-gray-700 rounded focus:outline-none focus:shadow-outline"
+                      id="firstName" type="text" name="fullname"	placeholder="Full name"	/>
+                  </div>
+                  <div class="formDiv py-2">
+                    <input
+                      class="w-full px-3 py-2 text-base leading-tight text-gray-700 rounded focus:outline-none focus:shadow-outline"
+                      id="phone" type="number" name="number"	placeholder="Phone"	/>
+                  </div>
+                </div>
+                <div class="formDiv py-2 md:mb-8">
+                  <input
+                    class="w-full px-3 py-2 text-base leading-tight text-gray-700 rounded focus:outline-none focus:shadow-outline"
+                    id="email" type="email" name="email"	placeholder="Email Address"	/>
+                </div>
+                <div class="formDiv py-2 mb-5 md:mb-10">
+                  <textarea placeholder="Message" name="Details" id="" cols="20" rows="7"
+                  class="w-full px-3 py-2 text-base leading-tight text-gray-700 rounded focus:outline-none focus:shadow-outline"
+                  ></textarea>
+                </div>
+                <a class="contBtn2 uppercase" href="">send message</a>
+              </form>
+            </div>
+          </div>
+          <div class="py-2 col-span-1">
+            <p class="text-3xl text-gray-900 font-bold">Are You Going to Implement Project?</p>
+            <div class="mt-5 md:mt-10">
+              <p class="text-[13px] text-gray-400 mb-2 uppercase">Address</p>
+              <p class="text-black text-[17px] font-semibold">2047 Cyrus Viaduct East Jadynchester</p>
+            </div>
+            <div class="mt-5 md:mt-10">
+              <p class="text-[13px] text-gray-400 mb-2 uppercase">email</p>
+              <p class="text-black text-[16px] font-semibold hover:text-[#0da574] transition-all">mafsealconstruction@gmail.com</p>
+              <p class="text-black text-[16px] font-semibold hover:text-[#0da574] transition-all">fabiyimatt@yahoo.com</p>
+            </div>
+            <div class="mt-5 md:mt-10 mb-10 md:mb-16">
+              <p class="text-[13px] text-gray-400 mb-2 uppercase">phone</p>
+              <p class="text-black text-[16px] font-semibold hover:text-[#0da574] transition-all">080-392-079-03</p>
+              <p class="text-black text-[16px] font-semibold hover:text-[#0da574] transition-all">081-839-315-29</p>
+              <p class="text-black text-[16px] font-semibold hover:text-[#0da574] transition-all">080-273-451-30</p>
+            </div>
+            <div class="grid grid-cols-4 items-center">
+                <div class="icon-div w-11 h-11 rounded-full bg-[#001f3f] transition-all flex justify-center items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="24" height="24" viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"></path>
+                  </svg>
+                </div>
+                <div class="icon-div w-11 h-11 rounded-full bg-[#001f3f] transition-all flex justify-center items-center">
+                  <svg class="" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="24" height="24" viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
+                  </svg>
+                </div>
+                <div class="icon-div w-11 h-11 rounded-full bg-[#001f3f] transition-all flex justify-center items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="24" height="24" viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z"></path>
+                    </svg>
+                </div>
+                <div class="icon-div w-11 h-11 rounded-full bg-[#001f3f] transition-all flex justify-center items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="24" height="24" viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path d="M 12.011719 2 C 6.5057187 2 2.0234844 6.478375 2.0214844 11.984375 C 2.0204844 13.744375 2.4814687 15.462563 3.3554688 16.976562 L 2 22 L 7.2324219 20.763672 C 8.6914219 21.559672 10.333859 21.977516 12.005859 21.978516 L 12.009766 21.978516 C 17.514766 21.978516 21.995047 17.499141 21.998047 11.994141 C 22.000047 9.3251406 20.962172 6.8157344 19.076172 4.9277344 C 17.190172 3.0407344 14.683719 2.001 12.011719 2 z M 12.009766 4 C 14.145766 4.001 16.153109 4.8337969 17.662109 6.3417969 C 19.171109 7.8517969 20.000047 9.8581875 19.998047 11.992188 C 19.996047 16.396187 16.413812 19.978516 12.007812 19.978516 C 10.674812 19.977516 9.3544062 19.642812 8.1914062 19.007812 L 7.5175781 18.640625 L 6.7734375 18.816406 L 4.8046875 19.28125 L 5.2851562 17.496094 L 5.5019531 16.695312 L 5.0878906 15.976562 C 4.3898906 14.768562 4.0204844 13.387375 4.0214844 11.984375 C 4.0234844 7.582375 7.6067656 4 12.009766 4 z M 8.4765625 7.375 C 8.3095625 7.375 8.0395469 7.4375 7.8105469 7.6875 C 7.5815469 7.9365 6.9355469 8.5395781 6.9355469 9.7675781 C 6.9355469 10.995578 7.8300781 12.182609 7.9550781 12.349609 C 8.0790781 12.515609 9.68175 15.115234 12.21875 16.115234 C 14.32675 16.946234 14.754891 16.782234 15.212891 16.740234 C 15.670891 16.699234 16.690438 16.137687 16.898438 15.554688 C 17.106437 14.971687 17.106922 14.470187 17.044922 14.367188 C 16.982922 14.263188 16.816406 14.201172 16.566406 14.076172 C 16.317406 13.951172 15.090328 13.348625 14.861328 13.265625 C 14.632328 13.182625 14.464828 13.140625 14.298828 13.390625 C 14.132828 13.640625 13.655766 14.201187 13.509766 14.367188 C 13.363766 14.534188 13.21875 14.556641 12.96875 14.431641 C 12.71875 14.305641 11.914938 14.041406 10.960938 13.191406 C 10.218937 12.530406 9.7182656 11.714844 9.5722656 11.464844 C 9.4272656 11.215844 9.5585938 11.079078 9.6835938 10.955078 C 9.7955938 10.843078 9.9316406 10.663578 10.056641 10.517578 C 10.180641 10.371578 10.223641 10.267562 10.306641 10.101562 C 10.389641 9.9355625 10.347156 9.7890625 10.285156 9.6640625 C 10.223156 9.5390625 9.737625 8.3065 9.515625 7.8125 C 9.328625 7.3975 9.131125 7.3878594 8.953125 7.3808594 C 8.808125 7.3748594 8.6425625 7.375 8.4765625 7.375 z"></path>
+                  </svg>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <%- include('./partials/footer.ejs') %>
+    </div>
+    <script type="module" src="/node_modules/youtube-video-js/dist/youtube-video.js"></script>
+  </body>
+</html>

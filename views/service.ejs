@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>       
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/about.css">
+        <link rel="stylesheet" href="/css/carousel.css">
+        <link rel="stylesheet" href="./styles/style.css" type="text/css" />
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <title>Service Page</title>
+    </head>
+<body>
+    <div class="">
+      <%- include('./partials/nav.ejs')%>
+        <main class="w-full h-[50vh] md:h-[60vh] bg-[#001f3f] py-[32%] md:py-[16%]">
+        <div class="flex w-full md:w-1/2">
+            <div class="line w-[9%] bg-[#ffc631] my-2"></div>
+            <div class="w-[100%] md:w-[60%] pb-2 md:pb-10 ml-3">
+            <p class="text-white font-medium text-sm md:mx-3">BUILDING COMMUNITIES.</p>
+            <h1 class="text-white font-bold text-4xl md:text-6xl py-2">Services</h1>
+            <ul class="flex items-center my-5 text-white">
+                <li class="">
+                    <a href="/">Home</a>
+                </li>
+                <div class="w-[7%] h-[2px] bg-white mx-5"></div>
+                <li>
+                    <a href="/service">Services</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </main>
+        <section class="w-full bg-white px-3 md:px-0">
+            <div class="md:w-[87%] mx-auto bg-white py-[80px] md:py-[100px]">
+                <div class="flex items-center">
+                  <div class="h-[2px] w-[4%] bg-[#ffc631]"></div>
+                  <p class="mx-2 text-sm md:text-base font-semibold">WHAT WE DO</p>
+                </div>
+                <h2 class="text-4xl md:text-[42px] text-black leading-tight py-3 md:my-5 font-bold">Services</h2>
+                <div class="grid md:grid-cols-3 gap-5 my-4">
+                    <div class="border p-10 hover:border-[#0da574] transition-all">
+                      <div class=" w-10 h-10">
+                        <p class="text-4xl font-extrabold text-gray-300">01</p>
+                      </div>
+                      <div>
+                        <h3 class="text-black text-2xl font-bold py-3">Process Engineering</h3>
+                        <p class="text-gray-800 ">Senectus et netus et malesuada. Nunc pulvinar sapien et ligula ullamcorper malesuada proin</p>
+                      </div>
+                      <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+    
+                    </div>
+                    <div class="border p-10 hover:border-[#0da574] transition-all">
+                      <div class=" w-10 h-10">
+                        <p class="text-4xl font-extrabold text-gray-300">02</p>
+                      </div>
+                      <div>
+                        <h3 class="text-black text-2xl font-bold py-3">Construction Services</h3>
+                        <p class="text-gray-800 ">Donec adipiscing tristique risus nec feugiat in. Porttitor massa id neque aliquam vestibulum morbi</p>
+                      </div>
+                      <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+    
+                    </div>
+                    <div class="border p-10 hover:border-[#0da574] transition-all">
+                      <div class=" w-10 h-10">
+                        <p class="text-4xl font-extrabold text-gray-300">03</p>
+                      </div>
+                      <div>
+                        <h3 class="text-black text-2xl font-bold py-3">Civil Engineering</h3>
+                        <p class="text-gray-800 ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                      </div>
+                      <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+    
+                    </div>
+                    <div class="border p-10 hover:border-[#0da574] transition-all">
+                      <div class=" w-10 h-10">
+                        <p class="text-4xl font-extrabold text-gray-300">04</p>
+                      </div>
+                      <div>
+                        <h3 class="text-black text-2xl font-bold py-3">Electrical Engineering</h3>
+                        <p class="text-gray-800 ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                      </div>
+                      <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+    
+                    </div>
+                    <div class="border p-10 hover:border-[#0da574] transition-all">
+                      <div class=" w-10 h-10">
+                        <p class="text-4xl font-extrabold text-gray-300">05</p>
+                      </div>
+                      <div>
+                        <h3 class="text-black text-[23px] font-bold py-3">Chemistry and Metallurgy</h3>
+                        <p class="text-gray-800 ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                      </div>
+                      <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+    
+                    </div>
+                    <div class="border p-10 hover:border-[#0da574] transition-all">
+                      <div class=" w-10 h-10">
+                        <p class="text-4xl font-extrabold text-gray-300">06</p>
+                      </div>
+                      <div>
+                        <h3 class="text-black text-2xl font-bold py-3">Specialty Services</h3>
+                        <p class="text-gray-800 ">Morbi tincidunt ornare massa eget egestas purus viverra blandit elementum cursus risus.</p>
+                      </div>
+                      <a class="flex items-center text-[#0da574] uppercase my-4" href="">Details <span><img class="w-5 h-5 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon"></span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="w-full bg-[#001f3f] px-3 md:px-0">
+          <div class="md:w-[87%] mx-auto py-[80px] md:py-[100px]">
+            <div class="grid md:grid-cols-2 gap-10 md:gap-16">
+              <div class="">
+                <div class="flex items-center">
+                  <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>
+                  <p class="mx-2 text-sm md:text-base font-semibold text-white">WHAT WE DO</p>
+                </div>
+                <h2 class="text-4xl md:text-[42px] leading-tight my-3 md:w-[80%] font-bold text-white">Building The Future on a <span class="text-[#0da574]">Foundation of Excellence</span></h2>
+                <div class="md:w-[85%]">
+                  <p class="text-[15px] md:text-[17px] text-white text-justify">Molestie nunc non blandit massa. Lacus sed viverra tellus in hac habitasse platea. Velit egestas dui id ornare arcu. Sapien pellentesque habitant morbi tristique senectus et netus. Ut consequat semper viverra nam libero.</p>
+                </div>
+              </div>
+              <div class="md:px-3 grid md:grid-cols-2 md:w-[85%]">
+                <div class="mb-5 md:mb-10">
+                  <p class="text-white text-4xl md:text-[42px] font-bold">99%</p>
+                  <span class="text-white font-semibold text-[15px] md:text-[17px] mb-2">Building Control</span>
+                  <br>
+                  <span class="text-white font-semibold text-[15px] md:text-[17px] mb-2">Approval Rate</span>      
+                </div>
+                <div class="mb-5 md:mb-10">
+                  <p class="text-white text-[42px] font-bold">320+</p>
+                  <span class="text-white font-semibold text-[17px] mb-2">Active Projects in</span>
+                  <br>
+                  <span class="text-white font-semibold text-[17px] mb-2">Construction Management</span>      
+                </div>
+                <div class="mb-5 md:mb-10">
+                  <p class="text-white text-[42px] font-bold">200+</p>
+                  <span class="text-white font-semibold text-[17px] mb-2">Completed Projects</span>
+                  <br>
+                  <span class="text-white font-semibold text-[17px] mb-2">Every Year</span>      
+                </div>
+                <div class="mb-5 md:mb-10">
+                  <p class="text-white text-[42px] font-bold">4.253</p>
+                  <span class="text-white font-semibold text-[17px] mb-2">Million euros Turnover</span>
+                  <br>
+                  <span class="text-white font-semibold text-[17px] mb-2">in 2020</span>      
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <iframe class="bg-black mx-auto h-[200px]" x-ref="player" src="/img/video.mov/ffff" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          </div>
+        </section>
+        <section class="w-full bg-white px-3 md:px-0">
+          <div class="md:w-[87%] mx-auto py-[80px] md:py-[100px]">
+            <div class="grid md:grid-cols-2 gap-10 mb-28">
+              <div class="md:flex items-center md:mt-14">
+                <div>
+                  <div class="flex items-center">
+                    <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>
+                    <p class="mx-2 text-sm md:text-base font-semibold text-black">THE CHOICE IS YOUR TIME IS OURS</p>
+                  </div>
+                  <h2 class="text-4xl md:text-[42px] md:w-[80%] leading-tight my-3 font-bold text-black">Solving Problems With the Help <span class="text-[#0da574]">of Experts</span></h2>
+                  <div class="md:w-[80%] md:mb-6">
+                    <p class="text-[15px] md:text-[16px] text-justify text-gray-800 ">Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus</p>
+                  </div>
+                  <div class="mb-5 md:mb-10">
+                    <div class="flex items-center text-black my-3">
+                      <img class="w-8 h-8 md:w-10 md:h-10" src="data:image/png;base64,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">
+                      <p class="ml-3 font-semibold">Successfully Completed Projects</p>
+                    </div>
+                    <div class="flex items-center text-black my-5">
+                      <img class="w-8 h-8 md:w-10 md:h-10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADWUlEQVR4nNWZv2/UMBTHs1Mq/HLpAXMHJDYk/gxGxFagExIMDEiMt8SvlE7wJzAj0QGd3yFQJWBloUcLIwi1iAGJAYEqFdC7JFdffp2dxLm7J3m4nBP542d/n9+z5xlYQLjaHWyteItsPskLgvBAKLkXPH941ltcCHkIhP+4CYX7bcP4fbwsFD4Dkj8E4S9Q+FYQXqsGwS8r3G8bBgZ4HZQ8SiZSb0LhYzsIkm+Cnd4SD75NGKBwHQiP8yDGTW1ctYLg5zqIaxjQIRR+KYF5bQURfRzvJAAuPQOTnri7TD0QhO9ylxfhTyuIcR8lb/PAXS0zSEEkz0tgvltD6OZimRVBlMEIJZ9OBDuOE4k62UA0tcymQegwoOTnaKzyqKPCS+M/OWLbDEbfK00sM1MINv4/7nfM0uylzXYwyV5Jv2sLUxmCwvXCjlVntqqaOYGoC2OrZk4h9D0DJIeRTstP/ovN856hrbyU3eTdoveB8GYCIWjjvhGEkn+FwluerVXxjImateKJujDT1EwQ3msdwoWaaa1diKbUbC4g6sIIkttzA1FVzVpVJ1cwcw1hCrMQENNgFgoisSbjBE/MUl8G3qysIFZYQUTfkHtA8v1MYWJP1IDQJkLh7kwqmnXPTnkpALQN09QBMC8FgLZgXKhTJgVQuN9R4TknAK6O4kUpAJAcOvGMq3yiLAUAkkP21lxAsKxOk9bSggbhh0Zg6kJwjLCJE5BX0KgLU3c5nYDYqZGfV9CoCtOUOukwtmq0kilo4EebgkjjG3t00FS4a+OZoLCgYXgN6EqdJmAMpBVKCxpTYECFN1xWO9Iw09a8X1qeLYCBfm9ZKPztOsfW8xmbOAG55Vm5l/HsmUF4xWRwTRQK9E1so0Y+e4hwla9A4ncP+PdEJ0Hy0cmROv9s1GRmpy8zVqOOgZp1B1unBMmd2DPfhHpwMdOJZ2YiSUoN1kV6mobxS6TVCII/wAPMFNXiQbvMsU1guiYQbEDhWk5lMGnHrotnvEfEKOXNqhFfB/LdZlzsOOQ7z8IPCZJPSkBYXf6wNLuAKIMJbCAiEPyaHjzvGRYAVjN/e/O014IF42JEJLMn6mQAMQJR8hXDRJ4J16zOMw5hwAZiHi2IYThOLCxEYqxmmWBXYP8B42B7azXCiVsAAAAASUVORK5CYII=" alt="icon">
+                      <p class="ml-3 font-semibold">Simplicity In Design With Practically In Mind</p>
+                    </div>
+                    <div class="flex items-center text-black my-5">
+                      <img class="w-8 h-8 md:w-10 md:h-10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAErElEQVR4nO1ZTYgcRRQuExMUspl51fvjT0wQxUMU4w9oEA8qGLwk4iEHRYXgQVQUjAiJl1a23+tZf9CDHhKUiGLEOcRVN12vnYWNkRDF9eBPVDz4k6iBqGtEMStiVl53zc44OzPd2zuz24f5oGGoee/V91V1vXpVrVQPPfTQQyaUy8u1IV8zndBMMw3PCWAksVF5Bxh6oomAxsdVecO6Cfcsx/i3aqYRYKxoxmkh6xj/hkZbh/HGWAhOx7Y04hjaIjHUUkKHdK1m+q7ZqLf0aTpD+K1m7xq1FIBKaa02eNIS+RwMPm5nJpUQsRUfYDoStRn6DXj4gkUTsJpdDYw7qjMBjG+pCffMRqJJQmYbJnet0IbejmIZ/FHWz1D41GD3FLjuMm3oIc04Vf9agCld2pZokhCZ3RAv+19Mpt/BeI92PLv1VcgBg2FdR+OzhBo6yyIkStk1IWO1fnCiY7MzMPbkOdrQZzbw8WLobW5HOJOQhnYd0iZgPGYH7SsdlNYsSMSa8jNng8EP7GL8ZnUwfNF8CGUVIug33rma8VMr5ghUSgWVFWDw5eqoyMzU/9dtIYJVAQ5IRrSZca/KAmC6pbp5Fdnf0Pj/YggRSDIBxr/ilE1b1LwwM3MGMH0cBQ/x4WYmmvF9zXSwc0KaxxNoxget3yeSPVVa6MC/LV4X+L0quytTOy5ASFuUy8vB0NcxJ39raj9gOmw3qHvn1WG3hKjIb5vlNJnKoRAOX6gNnpZNKUsx1y0hquyulDJGfAeYLk60t+WH7BmvzLuzbgpR9VkUdyQTMXQoW4bovpBi6G22e9qh9paTu1ZEqc7g6cKEW8zdjFRKBc30Lxg6JVxbGvYb7yq7oL7I0lG3hQjA0JfiXwj8K1VSZtBMr6qMaLcfpPk/CcLNctyW5rydvzO1hRzGEjkC055EtUsMHeA9tv57sbURE8dlCW1SOQXUasD9KuH9ndGBt1HlFMDD19m35kAbo7hQLAZ4ucopiuxviDMrfdT6JDh7HseyY+gu592R81ROoN/xzhdOws1ynGo8I8WGTG/UXwDMPoaOAuM+bWinZrx5cByHuk16cByHpC9t8DHb99EW3F6fK8QWZPIOAuMjspi0oV+bBQCDf8rZAAy9qQ09XQzo/uieKihdrwNcL0QKYz44oyN91fjyW9oikgGuF1vxEV+JEcViiRnFbkIafxFOYGh7bZ3g1BwhwPRDRLJSWlvf3r+fLtHs3a0ZX9AG3wOmn5p21MEH4j4OANPz8joJh3pOxbHhdbZ4PDZXSDwisoi2J039wIS7SkoEOeTI9GtDu4FxVLKelBDxoOBU7SYyGtGT0ib/xWVGZCszujuO4W8thN4VEjupf+FohexrXVky/iz3WCqn6KuQIxyj7Gqvpuae0w19mLhrLjHA4EuW42Hh3C5H/233kjtVzuBE6TfKVv/0h/7VCcb4gF0rp+R7hsoJnNC/STjZtXFfKidges6K+SMP5YoOvI0Rlzj1P5ve03WXVc/H0XcLQ7enySadhjM60geMd9T2ONrTcl20RHRDjnu7vWekfgy9tqDPDDIicTEZfxtc3AenpW/hkFlADz300IPKI/4Ds5i67kj/uwkAAAAASUVORK5CYII=" alt="icon">
+                      <p class="ml-3 font-semibold">High Level of Construction Control Approval</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box-img py-2 h-[60vh] md:h-[85vh]">
+              </div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-10 md:gap-32">
+              <div class="box-img py-2 h-[60vh] md:h-[85vh]">
+              </div>
+              <div class="md:flex items-center md:mt-16 md:w-[80vh]">
+                <div>
+                  <div class="flex items-center">
+                    <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>
+                    <p class="mx-2 text-sm md:text-base font-semibold text-black">WE BUILD ONLY QUALITY THINGS</p>
+                  </div>
+                  <h2 class="text-4xl md:text-[42px] md:w-[80%] leading-tight my-3 font-bold text-black">Trusted Quality for <br> Over <span class="text-[#0da574]">20 Years</span></h2>
+                  <div class="md:w-[90%] md:mb-4">
+                    <p class="text-[15px] md:text-[16px] text-justify text-gray-800 ">Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus</p>
+                  </div>
+                  <div class=" md:flex items-center w-[60%] mb-5 md:mb-10">
+                    <div class="text-black my-3">
+                        <h3 class="font-semi-bold text-[16px] mb-3">INDUSTRY</h3>
+                        <h3 class="font-semi-bold text-[16px] mb-3">ENGINEERING</h3>
+                        <h3 class="font-semi-bold text-[16px] mb-3">FACTORY</h3>
+                        <h3 class="font-semi-bold text-[16px] mb-3">CONSTRUCTION</h3>
+                    </div>
+                    <div class="text-black my-3 md:ml-7">
+                      <div class="flex items-center mb-3">
+                        <div class="progress-body w-[230px] h-3 bg-[#ccc]">
+                          <div class="progress-div h-3"></div>
+                        </div>
+                          <h3 class="ml-8 text-gray-500">93%</h3>
+                      </div>
+                      <div class="flex items-center mb-3">
+                        <div class="progress-body w-[230px] h-3 bg-[#ccc] ">
+                          <div class="progress-div1 h-3"></div>
+                        </div>
+                          <h3 class="ml-8 text-gray-500">89%</h3>
+                      </div>
+                      <div class="flex items-center mb-3">
+                        <div class="progress-body w-[230px] h-3 bg-[#ccc] ">
+                          <div class="progress-div2 h-3"></div>
+                        </div>
+                          <h3 class="ml-8 text-gray-500">84%</h3>
+                      </div>
+                      <div class="flex items-center mb-3">
+                        <div class="progress-body w-[230px] h-3 bg-[#ccc]">
+                          <div class="progress-div3 h-3"></div>
+                        </div>
+                          <h3 class="ml-8 text-gray-500">99%</h3>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <section class="w-full bg-white px-3 md:px-0">
+        <div class="md:w-[87%] mx-auto pb-[25%] md:pt-5 md:py-[70px] grid md:grid-cols-3 gap-7 md:gap-40">
+          <div class="col-span-2">
+            <div class="flex items-center">
+              <div class="h-[2px] w-[5%] bg-[#ffc631]"></div>
+              <p class="mx-2 text-sm md:text-base font-semibold text-black">CONTACT US</p>
+            </div>
+            <h2 class="text-4xl md:text-[42px] md:w-[80%] leading-tight my-5 font-bold text-black">Do You Have any <span class="text-[#0da574]">Questions?</span></h2>
+            <div class=" my-4 md:my-8">
+              <form action="" class="mb-4 bg-white rounded">
+                <div class="md:mb-8 grid md:grid-cols-2 gap-5">
+                  <div class="formDiv py-2">
+                    <input
+                      class="w-full px-3 py-2 text-base leading-tight text-gray-700 rounded focus:outline-none focus:shadow-outline"
+                      id="firstName" type="text" name="fullname"	placeholder="Full name"	/>
+                  </div>
+                  <div class="formDiv py-2 mb-5 md:mb-0">
+                    <input
+                      class="w-full px-3 py-2 text-base leading-tight text-gray-700 rounded focus:outline-none focus:shadow-outline"
+                      id="phone" type="number" name="number"	placeholder="Phone"	/>
+                  </div>
+                </div>
+                <div class="formDiv py-2 mb-5 md:mb-8">
+                  <input
+                    class="w-full px-3 py-2 text-base leading-tight text-gray-700 rounded focus:outline-none focus:shadow-outline"
+                    id="email" type="email" name="email"	placeholder="Email Address"	/>
+                </div>
+                <div class="formDiv py-2 mb-10">
+                  <textarea placeholder="Message" name="Details" id="" cols="20" rows="7"
+                  class="w-full px-3 py-2 text-base leading-tight text-gray-700 rounded focus:outline-none focus:shadow-outline"
+                  ></textarea>
+                </div>
+                <a class="contBtn2 px-[111px] md:px-[24px] py-[12px] text-center md:w-0 uppercase" href="">send message</a>
+              </form>
+            </div>
+          </div>
+          <div class="py-2 col-span-1">
+            <p class=" text-2xl md:text-3xl text-gray-900 font-bold">Are You Going to Implement Project?</p>
+            <div class="mt-5 md:mt-10">
+              <p class="text-[13px] text-gray-400 mb-2 uppercase">Address</p>
+              <p class="text-black text-[17px] font-semibold">2047 Cyrus Viaduct East Jadynchester</p>
+            </div>
+            <div class="mt-5 md:mt-10">
+              <p class="text-[13px] text-gray-400 mb-2 uppercase">email</p>
+              <p class="text-black text-[16px] font-semibold hover:text-[#0da574] transition-all">mafsealconstruction@gmail.com</p>
+              <p class="text-black text-[16px] font-semibold hover:text-[#0da574] transition-all">fabiyimatt@yahoo.com</p>
+            </div>
+            <div class="mt-5 md:mt-10 mb-10 md:mb-16">
+              <p class="text-[13px] text-gray-400 mb-2 uppercase">phone</p>
+              <p class="text-black text-[16px] font-semibold hover:text-[#0da574] transition-all">080-392-079-03</p>
+              <p class="text-black text-[16px] font-semibold hover:text-[#0da574] transition-all">081-839-315-29</p>
+              <p class="text-black text-[16px] font-semibold hover:text-[#0da574] transition-all">080-273-451-30</p>
+            </div>
+            <div class="grid grid-cols-4 items-center">
+                <div class="icon-div w-11 h-11 rounded-full bg-[#001f3f] transition-all flex justify-center items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="24" height="24" viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"></path>
+                  </svg>
+                </div>
+                <div class="icon-div w-11 h-11 rounded-full bg-[#001f3f] transition-all flex justify-center items-center">
+                  <svg class="" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="24" height="24" viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
+                  </svg>
+                </div>
+                <div class="icon-div w-11 h-11 rounded-full bg-[#001f3f] transition-all flex justify-center items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="24" height="24" viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z"></path>
+                    </svg>
+                </div>
+                <div class="icon-div w-11 h-11 rounded-full bg-[#001f3f] transition-all flex justify-center items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="24" height="24" viewBox="0 0 24 24" style="fill:#FFFFFF;">
+                    <path d="M 12.011719 2 C 6.5057187 2 2.0234844 6.478375 2.0214844 11.984375 C 2.0204844 13.744375 2.4814687 15.462563 3.3554688 16.976562 L 2 22 L 7.2324219 20.763672 C 8.6914219 21.559672 10.333859 21.977516 12.005859 21.978516 L 12.009766 21.978516 C 17.514766 21.978516 21.995047 17.499141 21.998047 11.994141 C 22.000047 9.3251406 20.962172 6.8157344 19.076172 4.9277344 C 17.190172 3.0407344 14.683719 2.001 12.011719 2 z M 12.009766 4 C 14.145766 4.001 16.153109 4.8337969 17.662109 6.3417969 C 19.171109 7.8517969 20.000047 9.8581875 19.998047 11.992188 C 19.996047 16.396187 16.413812 19.978516 12.007812 19.978516 C 10.674812 19.977516 9.3544062 19.642812 8.1914062 19.007812 L 7.5175781 18.640625 L 6.7734375 18.816406 L 4.8046875 19.28125 L 5.2851562 17.496094 L 5.5019531 16.695312 L 5.0878906 15.976562 C 4.3898906 14.768562 4.0204844 13.387375 4.0214844 11.984375 C 4.0234844 7.582375 7.6067656 4 12.009766 4 z M 8.4765625 7.375 C 8.3095625 7.375 8.0395469 7.4375 7.8105469 7.6875 C 7.5815469 7.9365 6.9355469 8.5395781 6.9355469 9.7675781 C 6.9355469 10.995578 7.8300781 12.182609 7.9550781 12.349609 C 8.0790781 12.515609 9.68175 15.115234 12.21875 16.115234 C 14.32675 16.946234 14.754891 16.782234 15.212891 16.740234 C 15.670891 16.699234 16.690438 16.137687 16.898438 15.554688 C 17.106437 14.971687 17.106922 14.470187 17.044922 14.367188 C 16.982922 14.263188 16.816406 14.201172 16.566406 14.076172 C 16.317406 13.951172 15.090328 13.348625 14.861328 13.265625 C 14.632328 13.182625 14.464828 13.140625 14.298828 13.390625 C 14.132828 13.640625 13.655766 14.201187 13.509766 14.367188 C 13.363766 14.534188 13.21875 14.556641 12.96875 14.431641 C 12.71875 14.305641 11.914938 14.041406 10.960938 13.191406 C 10.218937 12.530406 9.7182656 11.714844 9.5722656 11.464844 C 9.4272656 11.215844 9.5585938 11.079078 9.6835938 10.955078 C 9.7955938 10.843078 9.9316406 10.663578 10.056641 10.517578 C 10.180641 10.371578 10.223641 10.267562 10.306641 10.101562 C 10.389641 9.9355625 10.347156 9.7890625 10.285156 9.6640625 C 10.223156 9.5390625 9.737625 8.3065 9.515625 7.8125 C 9.328625 7.3975 9.131125 7.3878594 8.953125 7.3808594 C 8.808125 7.3748594 8.6425625 7.375 8.4765625 7.375 z"></path>
+                  </svg>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <%- include('./partials/footer.ejs') %>
+    </div>
+</body>
+</html>
