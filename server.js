@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 8000;
 
 const app = express()
 
-mongoose.set('strictQuery', false)
+mongoose.set('strictQuery', false);
 mongoose.connect(process.env.CONNECT_DB,{useUnifiedTopology:true,useNewUrlParser:true})
     .then(res=>{
         if (res) {
@@ -41,4 +41,4 @@ app.use('/', require('./routes/contRoute'));
 app.use('/', require('./routes/contRoute'));
 app.use('/', require('./routes/contRoute'));
 app.use('/', require('./routes/adminRoute'));
-app.use('/', require('./routes/adminRoute'))
+app.use('/', require('./routes/adminRoute'));
