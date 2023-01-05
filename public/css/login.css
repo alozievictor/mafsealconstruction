@@ -1,0 +1,49 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* body { */
+    /* background:#001f3f; */
+    /* background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../img/login.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed; */
+/* } */
+/* .container {
+    border: 1px solid white;
+    height: 100vh;
+}
+.form {
+    background: white;
+    width: 70%;
+    height: 40vh;
+    margin: 70px 0;
+}
+.formDiv {
+    margin: 30px;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+.formDiv > input {
+    margin-left: 10px;
+}
+
+.formDiv > input::placeholder {
+    font-size: 16;
+}
+.cont {
+    border: 1px solid white;
+    height: 250px;
+}
+.box {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+}
+.formbox {
+    background: white;
+} */

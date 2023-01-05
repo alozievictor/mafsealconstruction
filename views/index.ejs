@@ -448,17 +448,18 @@
             </div>
             <h2 class="text-[42px] leading-tight my-5 font-bold text-black">Do You Have <br> any <span class="text-[#0da574]">Questions?</span></h2>
             <div class=" my-4 md:my-8">
-              <form action="" class="mb-4 bg-white rounded">
+            
+              <form action="/question" method="post" class="mb-4 bg-white rounded">
                 <div class="md:mb-8 grid md:grid-cols-2 gap-5">
                   <div class="formDiv py-2">
                     <input
                       class="w-full px-3 py-2 text-base leading-tight text-gray-700 rounded focus:outline-none focus:shadow-outline"
-                      id="firstName" type="text" name="fullname"	placeholder="Full name"	/>
+                      id="name" type="text" name="name"	placeholder="Full name"	/>
                   </div>
                   <div class="formDiv py-2">
                     <input
                       class="w-full px-3 py-2 text-base leading-tight text-gray-700 rounded focus:outline-none focus:shadow-outline"
-                      id="phone" type="number" name="number"	placeholder="Phone"	/>
+                      id="phone" type="number" name="phone"	placeholder="Mobile Number"	/>
                   </div>
                 </div>
                 <div class="formDiv py-2 md:mb-8">
@@ -467,11 +468,12 @@
                     id="email" type="email" name="email"	placeholder="Email Address"	/>
                 </div>
                 <div class="formDiv py-2 mb-5 md:mb-10">
-                  <textarea placeholder="Message" name="Details" id="" cols="20" rows="7"
+                  <textarea placeholder="Message" name="message" id="" cols="20" rows="7"
                   class="w-full px-3 py-2 text-base leading-tight text-gray-700 rounded focus:outline-none focus:shadow-outline"
                   ></textarea>
                 </div>
-                <a class="contBtn2 uppercase" href="">send message</a>
+                <button type="submit" class="contBtn2 uppercase">send message</button>
+                <!-- <a class="contBtn2 uppercase" href="">send message</a> -->
               </form>
             </div>
           </div>
@@ -520,9 +522,12 @@
             </div>
           </div>
         </div>
+        
       </section>
       <%- include('./partials/footer.ejs') %>
     </div>
-    <script type="module" src="/node_modules/youtube-video-js/dist/youtube-video.js"></script>
+      
+    
+
   </body>
 </html>

@@ -40,3 +40,5 @@ app.use('/', require('./routes/contRoute'));
 app.use('/', require('./routes/contRoute'));
 app.use('/', require('./routes/contRoute'));
 app.use('/', require('./routes/contRoute'));
+app.use('/', require('./routes/adminRoute'));
+app.use('/', require('./routes/adminRoute'))
