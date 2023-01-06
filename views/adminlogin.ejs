@@ -32,12 +32,13 @@
             <div class="mt-10 px-12 sm:px-24 md:px-48 lg:px-12 lg:mt-16 xl:px-24 xl:max-w-2xl">
                 <h2 class="text-center text-4xl text-indigo-900 font-display font-semibold lg:text-left xl:text-4xl
                 xl:text-bold">Welcome beloved admin</h2>
+                <h2>Login</h2>
                 <div class="mt-12">
                     <form action="/LoginAdmin" method="post">
                         <div>
                             <div class="text-sm font-bold text-gray-700 tracking-wide">Email Address</div>
                             <input class="w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500" 
-                            type="text" name="Email" placeholder="mike@gmail.com">
+                            id="email" type="email" name="email" placeholder="Company@gmail.com">
                         </div>
                         <div class="mt-8">
                             <div class="flex justify-between items-center">
@@ -52,7 +53,7 @@
                                 </div>
                             </div>
                             <input class="w-full text-lg py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500" 
-                            type="text" name="Password" placeholder="Enter your password">
+                            id="password" type="text" name="password" placeholder="Enter your password">
                         </div>
                         <div class="mt-10">
                             <button class="bg-indigo-500 text-gray-100 p-4 w-full rounded-full tracking-wide
@@ -61,6 +62,7 @@
                                 Log In
                             </button>
                         </div>
+                        <div><%= message %></div>
                     </form>
                     <div class="mt-12 text-sm font-display font-semibold text-gray-700 text-center">
                     
