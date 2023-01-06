@@ -125,12 +125,12 @@ router.get('/delete/:id', async (req, res) => {
         if(!checkQuestion) {
             return res.status(404).redirect('/adminPage')
         }
-        
+
         const DeleteQuestion = await QuestionSchema.findOneAndDelete({_id:id}) 
         return res.status(200).redirect('/adminPage')
 
     } catch (error) {
-        console.log(error)
+        console.log(error);
     }
     
 })
