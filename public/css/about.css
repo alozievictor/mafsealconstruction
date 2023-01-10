@@ -8,7 +8,23 @@
 }
 .box-img {
     width: 100%;
-    background-image: url(/img/img3.jpg);
+    background-image: url(/img/pic55.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.box-img1 {
+    width: 100%;
+    background-image: url(/img/pic63.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.box-img2 {
+    width: 100%;
+    background-image: url(/img/pic55.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
