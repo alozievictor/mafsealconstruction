@@ -1,0 +1,75 @@
+.child1 {
+    width: 100%;
+    height: 100%;
+    background-color: black; /* fallback color */
+    background-image: url("../img/pic37.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    transition: all .5s;
+}
+.child2 {
+    width: 100%;
+    height: 100%;
+    background-color: black; /* fallback color */
+    background-image: url("../img/pic67.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    transition: all .5s;
+}
+.child3 {
+    width: 100%;
+    height: 100%;
+    background-color: black; /* fallback color */
+    background-image: url("../img/pic33.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    transition: all .5s;
+}
+.child4 {
+    width: 100%;
+    height: 100%;
+    background-color: black; /* fallback color */
+    background-image: url("../img/pic26.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    transition: all .5s;
+}
+.child5 {
+    width: 100%;
+    height: 100%;
+    background-color: black; /* fallback color */
+    background-image: url("../img/pic52.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    transition: all .5s;
+}
+.child6 {
+    width: 100%;
+    height: 100%;
+    background-color: black; /* fallback color */
+    background-image: url("../img/pic46.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    transition: all .5s;
+}
+
+.parent:hover .child1,
+.parent:hover .child2,
+.parent:hover .child3,
+.parent:hover .child4,
+.parent:hover .child5,
+.parent:hover .child6,
+.parent:focus .child1,
+.parent:focus .child2,
+.parent:focus .child3,
+.parent:focus .child4 
+.parent:focus .child5,
+.parent:focus .child6{
+  transform: scale(1.2);
+}
