@@ -8,6 +8,7 @@
             <link rel="stylesheet" href="/css/index.css">
             <link rel="stylesheet" href="/css/about.css">
             <link rel="stylesheet" href="./styles/style.css" type="text/css" />
+            <link rel="shortcut icon" href="/img/maf.png" type="image/x-icon">
             <link href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css" rel="stylesheet" type="text/css" />
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,12 +27,12 @@
 <body>
     <div>
         <%- include('./partials/nav.ejs')%>
-        <main class="w-full h-[60vh] bg-[#001f3f] py-[8%] md:py-[16%]">
-          <div class="md:flex w-1/2">
+        <main class="w-full h-[60vh] bg-[#001f3f] py-[32%] md:py-[20%] md:flex md:justify-between">
+          <div class="flex w-1/2">
             <div class="line w-[9%] bg-[#ffc631] my-2"></div>
             <div class="w-[60%] pb-10 relative">
-              <p class="text-white font-medium md:mx-3">BUILDING COMMUNITIES.</p>
-              <h1 class="text-white font-bold text-6xl py-2">About</h1>
+              <p class="text-white font-medium mx-2 md:mx-3">BUILDING COMMUNITIES.</p>
+              <h1 class="text-white font-bold text-[42px] md:text-6xl py-2">About</h1>
               <ul class="flex items-center my-5 text-white">
                 <li class="">
                     <a href="/">Home</a>
@@ -44,15 +45,15 @@
             </div>
           </div>
         </main>
-        <section class="w-full bg-white">
-            <div class="md:w-[87%] mx-auto md:py-[100px] grid md:grid-cols-2 gap-10">
+        <section class="w-full bg-white px-3 md:px-0">
+            <div class="md:w-[87%] mx-auto py-[80px] md:py-[100px] grid md:grid-cols-2 gap-10">
                 <div class="md:flex items-center">
                   <div>
                     <div class="flex items-center">
                       <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>
                       <p class="mx-2 font-semibold text-black">WHO WE ARE</p>
                     </div>
-                    <h2 class="text-[42px] leading-tight my-5 font-bold text-black">Bringing <span class="text-[#0da574]">Your Ideas</span> <br> and Innovations to Life</h2>
+                    <h2 class="text-4xl md:text-[42px] leading-tight my-5 font-bold text-black">Bringing <span class="text-[#0da574]">Your Ideas</span> <br> and Innovations to Life</h2>
                     <div class="md:w-[80%] md:mb-8">
                       <p class="text-[16px] text-justify text-gray-800 ">Mafseal construction has the capacity to deliver both design and build, that varies from 
                       commercial and industrial buildings, to single homes or entire residential districts
@@ -84,24 +85,24 @@
                 </div>
               </div>
         </section>
-        <section class="w-full bg-[#001f3f]">
-            <div class="md:w-[87%] mx-auto py[50px] md:py-[100px]">
+        <section class="w-full bg-[#001f3f] px-3 md:px-0">
+            <div class="md:w-[87%] mx-auto py-[80px] md:py-[100px]">
                 <div class="flex items-center">
-                    <div class="h-[2px] w-[4%] bg-[#ffc631]"></div>
+                    <div class="h-[2px] w-6 md:w-[4%] bg-[#ffc631]"></div>
                     <p class="mx-2 font-semibold text-white">WHO WE ARE</p>
                 </div>
-                <h2 class="text-[40px] leading-tight my-5 font-bold text-white">
+                <h2 class="text-3xl md:text-[42px] leading-tight my-5 font-bold text-white">
                   You can dream, create, design, and build the most wonderful place in the world. But it requires people to make the dream a reality.</h2>
                 <p class="text-[#ffc631]">Walt Disney</p>
             </div>
         </section>
-        <section class="w-full bg-white">
-            <div class="md:w-[87%] mx-auto py-[50px] md:py-[100px]">
+        <section class="w-full bg-white px-3 md:px-0">
+            <div class="md:w-[87%] mx-auto py-[80px] md:py-[100px]">
                 <div class="flex items-center">
                     <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>
                     <p class="mx-2 font-semibold text-black">JUST FEEL THE FUTURE</p>
                 </div>
-                <h2 class="text-[42px] leading-tight mt-5 mb-10 font-bold text-black">Spotlight <span class="text-[#0da574]">Services</span></h2>
+                <h2 class="text-4xl md:text-[42px] leading-tight mt-5 mb-10 font-bold text-black">Spotlight <span class="text-[#0da574]">Services</span></h2>
                 <div class="grid md:grid-cols-2 gap-10 md:gap-16">
                     <div>
                         <div class="box-img1 py-2 h-[75vh]">
@@ -113,7 +114,7 @@
                         <div class="md:w-[80%] md:mb-8">
                           <p class="text-[16px] text-justify text-gray-800 ">Mafseal construction has the capacity to deliver both design and build, that varies from commercial and industrial buildings, to single homes or entire residential districts</p>
                         </div>
-                        <div class="mb-5 md:mb-10">
+                        <div class="mb-10">
                             <div class="flex items-center text-black my-2">
                                 <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
                                 <p class="ml-2">Building the future with ideas</p>
@@ -134,8 +135,8 @@
                   </div>
             </div>
         </section>
-        <section class="w-full bg-white">
-            <div class="md:w-[87%] mx-auto md:py-[100px]">
+        <section class="w-full bg-white px-3 md:px-0">
+            <div class="md:w-[87%] mx-auto py-[80px] md:py-[100px]">
               <div class="grid md:grid-cols-3 gap-5 my-4">
                     <div class="transition-all">
                       <div class="grid">
@@ -143,7 +144,7 @@
                           <div class="h-[2px] w-[12%] bg-[#ffc631]"></div>
                           <p class="mx-2 font-semibold text-black">WHY CHOOSE US</p>
                         </div>
-                        <h2 class="text-[42px] leading-tight my-4 font-bold text-[#0da574]">Design <span class="text-black">Future <br> with Excellence</span></h2>
+                        <h2 class="text-4xl md:text-[42px] leading-tight my-4 font-bold text-[#0da574]">Design <span class="text-black">Future <br> with Excellence</span></h2>
                         <div>
                           <div class="flex items-center text-black my-2">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="fill:#12B886;">
@@ -217,52 +218,13 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="w-full bg-white">
-            <div class="md:w-[87%] mx-auto py-[50px] md:py-[100px]">
-                <div class="flex items-center">
-                    <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>
-                    <p class="mx-2 font-semibold text-black">OUR REVIEWS</p>
-                </div>
-                <h2 class="text-[42px] leading-tight mt-5 mb-10 font-bold text-black">What <span class="text-[#0da574]"> Our Clients</span> Say</h2>
-                <div class="grid md:grid-cols-2 gap-10 md:gap-16">
-                    <div>
-                        <div class="box-img py-2 h-[75vh]">
-                        </div>
-                    </div>
-                    <div class="md:flex items-center">
-                      <div>
-                        <h2 class="text-[35px] leading-tight my-5 font-bold text-black">Electrical Engineering</h2>
-                        <div class="md:w-[80%] md:mb-8">
-                          <p class="text-[16px] text-justify text-gray-800 ">Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus</p>
-                        </div>
-                        <div class="mb-5 md:mb-10">
-                            <div class="flex items-center text-black my-2">
-                                <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
-                                <p class="ml-2">Building the future with ideas</p>
-                            </div>
-                            <div class="flex items-center text-black my-3">
-                                <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
-                                <p class="ml-2">Designing future with excellence</p>
-                            </div>
-                            <div class="flex items-center text-black my-3">
-                                <img class="w-5 h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAtUlEQVRIie2UMQrCQBBF3wTBZnMnz6FYSxqxWG+RIthEa02OId4p6cdKUJFldhMFIa8e/tudGQYm/hNFUMRSOksJd62vRJl3WhYIGio3veIZd/YLybgConDol+UuJMliBf26vKlQACqwzRtfh9oV/YMHrvUbUWpAUE7d6nO7kgVWySCBRfIiyBsf3AgTb5LoIcfy2xaNHT5I8NU1tYYnCWJPRTyKuGZf5Rd/tF7UJMn3wifG5g5rxmZbR8oZFgAAAABJRU5ErkJggg==" alt="icon">
-                                <p class="ml-2">Discovering possibility concrete</p>
-                            </div>
-                        </div>
-                        <a class="contBtn2 uppercase" href="">consult now</a>
-                      </div>
-                    </div>
-            
-                  </div>
-            </div>
-        </section> -->
-        <section class="w-full bg-white">
-          <div class="md:w-[87%] mx-auto py-[50px] md:py-[100px]">
+        <section class="w-full bg-white px-3 md:px-0">
+          <div class="md:w-[87%] mx-auto py-[80px] md:py-[100px]">
               <div class="flex items-center">
                   <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>
                   <p class="mx-2 font-semibold text-black">OUR REVIEWS</p>
               </div>
-              <h2 class="text-[42px] leading-tight mt-5 font-bold text-black">What <span class="text-[#0da574]"> Our Clients</span> Say</h2>
+              <h2 class="text-4xl md:text-[42px] leading-tight mt-5 font-bold text-black">What <span class="text-[#0da574]"> Our Clients</span> Say</h2>
                 <div
                 class="mx-auto max-w-[1340px] px-4 py-16 sm:px-6 sm:py-24 lg:mr-0 lg:pl-8 lg:pr-0"
               >

@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="/css/index.css">
         <link rel="stylesheet" href="/css/about.css">
         <link rel="stylesheet" href="./styles/style.css" type="text/css" />
+        <link rel="shortcut icon" href="/img/maf.png" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css" rel="stylesheet" type="text/css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,27 +21,27 @@
 <body>
     <div>
         <%- include('./partials/nav.ejs')%>
-        <main class="w-full h-[60vh] bg-[#001f3f] py-[8%] md:py-[16%]">
-        <div class="md:flex w-1/2">
-            <div class="line w-[9%] bg-[#ffc631] my-2"></div>
-            <div class="w-[60%] pb-10 relative">
-            <p class="text-white font-medium md:mx-3">BUILDING COMMUNITIES.</p>
-            <h1 class="text-white font-bold text-6xl py-2">Contact</h1>
-            <ul class="flex items-center my-5 text-white">
-                <li class="">
-                    <a href="/">Home</a>
-                </li>
-                <div class="w-[7%] h-[2px] bg-white mx-5"></div>
-                <li>
-                    <a href="/contact">Contact</a>
-                </li>
-            </ul>
+        <main class="w-full h-[60vh] bg-[#001f3f] py-[32%] md:py-[20%]">
+            <div class="flex w-1/2">
+                <div class="line w-[9%] bg-[#ffc631] my-2"></div>
+                <div class="w-[60%] pb-10 relative">
+                <p class="text-white font-medium mx-2 md:mx-3">BUILDING COMMUNITIES.</p>
+                <h1 class="text-white font-bold text-[42px] md:text-6xl py-2">Contact</h1>
+                <ul class="flex items-center my-5 text-white">
+                    <li class="">
+                        <a href="/">Home</a>
+                    </li>
+                    <div class="w-[7%] h-[2px] bg-white mx-5"></div>
+                    <li>
+                        <a href="/contact">Contact</a>
+                    </li>
+                </ul>
+                </div>
             </div>
-        </div>
         </main>
-        <section class="w-full bg-white">
-            <div class="md:w-[87%] mx-auto md:py-[100px]">
-                <div class="grid grid-cols-4 gap-5 mb-10">
+        <section class="w-full bg-white px-3 md:px-0">
+            <div class="md:w-[87%] mx-auto py-[80px] md:py-[100px]">
+                <div class="grid md:grid-cols-4 gap-5 mb-10">
                     <div>
                         <div class="flex items-center">
                             <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>
@@ -50,7 +51,7 @@
                     </div>
                     <div class="box2 p-8 transition-all">
                         <div class="">
-                            <img class="w-9 h-9" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFAElEQVR4nO1aXYhVVRQ+iUWWf5lGUg9B6dTQ3LPWPY31EFwroh+KUMxEn3oVil7EygKzeiikt4r+oB6kKCpRgjDh5nT2Pnf0plKGVBBGBJqRNf1NjuOKvde6Z2buzPm5c/bBO9GCA8PMOt9a66zfvfZ43v80maixYj5pWE8KXyON+0njT6TgtH3Mz/y7V0nhOgp75nndRhT29ZCGN0jBX6SRcj0K/iSFr1MEy861/h41g4tI43bSMMLK4Vn71SPcQhpq1sDDlYvtw8bWSOETpOGA8BqDTpPC56leu/DcGBHBMtL4pRgwSgp3UBhcnft9jdeQhrdjgzREtC9YWq7W7UqoCkrMGyO+Jh1Up40V4g2k8BvB+oEirLjVNt0TLSP20Gd9lxTG1L2LSOEnsTFle0ZyohVOe6hem+0Q+3zSsDcOszJzhhNbwsmBJ6b2DHwrMp5yjc9CuOqM2MQukBOZchT02wKg8A8a7L/cvQDTJ/hL7XAO3i5LwTsi6yX3HZsb2Nk8JZZU5TLS8DRpPGS/rHk0HiSN22gAluQqKEq8Uu+d684QM3ZwR96fbQSsIQ1DKR39N4pwdQ6cpuWP8AF3hvDsZEC3ZBoRNzj80HbyVmeP/JWkcWfcQHV1VQbWk1LBXnFnCA97BrSWEU7iCX9TMh9uFs/8Ss1gcSJf6N8ifA0XNohwOGlBByvLE3k4J6wncuDtyiqxNFhZLngniujeJhj/saApozdpPJzltUlfW+PBZJ6eecIzXET3NiXhbwua0m1J4+/Mk11lxpSEoYwpgszRoIjuE0EVHufQSm5QcX7kMcQewLiCJeP5V4ixPxbRvV3Joyy4cn0yDx7iyuavzMRT1VvFkM8TeUIfJLSOFNG9TUnYzaDVtck8uE0E78yNp3BrMo+/QYz9oIjuE0EVPiugzyTyDMAS2+xYwc3JCsJjYvApGuy/NFkmPJdlbMdkPCHxujeVL8LV3Oys0btsdar3zrWPDafYE6MUwn2pWApDrpTpfJ0ZYpodKzhsqkkqr66uss0uefFwKtOIur+Q9wAwQs1ggTNDWEE79JkvdHcmbzNYbJqdSWYuyzBkZyeFW9PCqUWk4X7xXOi5prhzK3zTOXi7LAXvZ+VaAfDg2nh6zQivQnKawQLbgM3wGflXlSOEQ8UMhRtKEeDZEH5IvPFpWTKMIRtby4FS8Ou12aTwO5GxvgwZIsiUUalICvqd4ytc1xpLzFbFNX6bMHhByuh75YUuPO4ae7KwfcHSOBl10OcMN4Lb4wNX3V/oCjddqMYXXXvFJDeVuc+aUmij78p4qxIFNxfGM9MAe+PnMhZ/6cJNl5ZTHpE3a9o4R3ovGFtiw0a3WuZRQN80hzQck3B4cPo4/ibB+MrlLnl6+y5zgmysmN/x+zz6Szmv3lGOlnkUIe880qgkxLZ3/L7Ct6Tc7i5Hw04vfexlJ5yhKLgx93sa74zvEju46SqVxo65cDTPvQZvUeB7MeRhr1uIbOWBL7KOwzG/gpdb540iFa8UslsPvqEdTduk2JDi/fAwRXid141E5lTIIXZsqjGD98N4QjYyj3jdSmTGcA0DrTWOqWrx38ibRRo+lgr30fi/dSURjy8n268hxh2Vj5dypVYGkcZ75cZplCK4i1T1Ht7CwBlSeJs3k4jGZrFf7AqIw+1Rb6YRcdd/d9yV24ScmVFEpvEpaPA/ADi81PT+w/QvhRfwsmWFOzYAAAAASUVORK5CYII=" alt="icon">
+                            <img class="w-6 h-6 md:w-9 md:h-9" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFAElEQVR4nO1aXYhVVRQ+iUWWf5lGUg9B6dTQ3LPWPY31EFwroh+KUMxEn3oVil7EygKzeiikt4r+oB6kKCpRgjDh5nT2Pnf0plKGVBBGBJqRNf1NjuOKvde6Z2buzPm5c/bBO9GCA8PMOt9a66zfvfZ43v80maixYj5pWE8KXyON+0njT6TgtH3Mz/y7V0nhOgp75nndRhT29ZCGN0jBX6SRcj0K/iSFr1MEy861/h41g4tI43bSMMLK4Vn71SPcQhpq1sDDlYvtw8bWSOETpOGA8BqDTpPC56leu/DcGBHBMtL4pRgwSgp3UBhcnft9jdeQhrdjgzREtC9YWq7W7UqoCkrMGyO+Jh1Up40V4g2k8BvB+oEirLjVNt0TLSP20Gd9lxTG1L2LSOEnsTFle0ZyohVOe6hem+0Q+3zSsDcOszJzhhNbwsmBJ6b2DHwrMp5yjc9CuOqM2MQukBOZchT02wKg8A8a7L/cvQDTJ/hL7XAO3i5LwTsi6yX3HZsb2Nk8JZZU5TLS8DRpPGS/rHk0HiSN22gAluQqKEq8Uu+d684QM3ZwR96fbQSsIQ1DKR39N4pwdQ6cpuWP8AF3hvDsZEC3ZBoRNzj80HbyVmeP/JWkcWfcQHV1VQbWk1LBXnFnCA97BrSWEU7iCX9TMh9uFs/8Ss1gcSJf6N8ifA0XNohwOGlBByvLE3k4J6wncuDtyiqxNFhZLngniujeJhj/saApozdpPJzltUlfW+PBZJ6eecIzXET3NiXhbwua0m1J4+/Mk11lxpSEoYwpgszRoIjuE0EVHufQSm5QcX7kMcQewLiCJeP5V4ixPxbRvV3Joyy4cn0yDx7iyuavzMRT1VvFkM8TeUIfJLSOFNG9TUnYzaDVtck8uE0E78yNp3BrMo+/QYz9oIjuE0EVPiugzyTyDMAS2+xYwc3JCsJjYvApGuy/NFkmPJdlbMdkPCHxujeVL8LV3Oys0btsdar3zrWPDafYE6MUwn2pWApDrpTpfJ0ZYpodKzhsqkkqr66uss0uefFwKtOIur+Q9wAwQs1ggTNDWEE79JkvdHcmbzNYbJqdSWYuyzBkZyeFW9PCqUWk4X7xXOi5prhzK3zTOXi7LAXvZ+VaAfDg2nh6zQivQnKawQLbgM3wGflXlSOEQ8UMhRtKEeDZEH5IvPFpWTKMIRtby4FS8Ou12aTwO5GxvgwZIsiUUalICvqd4ytc1xpLzFbFNX6bMHhByuh75YUuPO4ae7KwfcHSOBl10OcMN4Lb4wNX3V/oCjddqMYXXXvFJDeVuc+aUmij78p4qxIFNxfGM9MAe+PnMhZ/6cJNl5ZTHpE3a9o4R3ovGFtiw0a3WuZRQN80hzQck3B4cPo4/ibB+MrlLnl6+y5zgmysmN/x+zz6Szmv3lGOlnkUIe880qgkxLZ3/L7Ct6Tc7i5Hw04vfexlJ5yhKLgx93sa74zvEju46SqVxo65cDTPvQZvUeB7MeRhr1uIbOWBL7KOwzG/gpdb540iFa8UslsPvqEdTduk2JDi/fAwRXid141E5lTIIXZsqjGD98N4QjYyj3jdSmTGcA0DrTWOqWrx38ibRRo+lgr30fi/dSURjy8n268hxh2Vj5dypVYGkcZ75cZplCK4i1T1Ht7CwBlSeJs3k4jGZrFf7AqIw+1Rb6YRcdd/d9yV24ScmVFEpvEpaPA/ADi81PT+w/QvhRfwsmWFOzYAAAAASUVORK5CYII=" alt="icon">
                         </div>
                         <div>
                           <h3 class="text-black text-2xl font-bold py-3">Address</h3>
@@ -59,7 +60,7 @@
                     </div>
                     <div class="box2 p-8 transition-all">
                         <div class="">
-                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACCklEQVR4nO1VPWgUURB+EaMYgqJGDCQgJBZyeDhzLyc2YhGrYBVMa5k2pa2ljYVlWrESO0FCCAbMzeROtlAwkCYpFBQ0KooiGvWTe/d23Y173GZzpwncB1MsOzPf9773M8Z0sVeBWnkQSvdd1MqD/5ZcaQpCG1CGjw+Q0jRgejpLLHwKSnN/iOlBI6LvuXpO+4lhetwKlT55svf174Qjym/cP6EvEL4OmH3tIa/YUSg/itl9D4/pxF95S8WjUJqN5QnEnslPvHhpP4RmIPzZ2/sKyzzZWjBNQOiFr/kK4Rt4XjiwPXK1RSg/aVjKv6B0B1o4lrm+ev4wlG9D+KfflmeolmzrwsD2uv0T/ubJ16F0eVvq4/0qpYtQXvVubELpJh6ePti8QHjFJ/+A0C0Eti8vedQzsH2uV71nY1ErzZPVHyBnHc1isdC/YwF64ZBbeShAGRkE0HfvxBqEx3OTC4+7HomeWQRo7BCGV69WPp6ZOLBHnIPuALv6p6jwWGYBJu0aCr2G0NXWqy5dgfDLxDUMbO/W/i0FhMDS2AiUFpLP77mhKCHMWz57snFdo3NU2foQ5RIQPcVK1yD8Lm34+OH01jv10TmX8hTnFhAC1eJwYvgIz7uIu1MtDpsm2LGA1OGTMpw6LqAOBHYAwnddBHbAZEBbBeRBVwC6W6B75RCiw7F7BXRh/gN+A9SiDII0TY9hAAAAAElFTkSuQmCC" alt="icon">
+                            <img class="w-6 h-6 md:w-9 md:h-9" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACCklEQVR4nO1VPWgUURB+EaMYgqJGDCQgJBZyeDhzLyc2YhGrYBVMa5k2pa2ljYVlWrESO0FCCAbMzeROtlAwkCYpFBQ0KooiGvWTe/d23Y173GZzpwncB1MsOzPf9773M8Z0sVeBWnkQSvdd1MqD/5ZcaQpCG1CGjw+Q0jRgejpLLHwKSnN/iOlBI6LvuXpO+4lhetwKlT55svf174Qjym/cP6EvEL4OmH3tIa/YUSg/itl9D4/pxF95S8WjUJqN5QnEnslPvHhpP4RmIPzZ2/sKyzzZWjBNQOiFr/kK4Rt4XjiwPXK1RSg/aVjKv6B0B1o4lrm+ev4wlG9D+KfflmeolmzrwsD2uv0T/ubJ16F0eVvq4/0qpYtQXvVubELpJh6ePti8QHjFJ/+A0C0Eti8vedQzsH2uV71nY1ErzZPVHyBnHc1isdC/YwF64ZBbeShAGRkE0HfvxBqEx3OTC4+7HomeWQRo7BCGV69WPp6ZOLBHnIPuALv6p6jwWGYBJu0aCr2G0NXWqy5dgfDLxDUMbO/W/i0FhMDS2AiUFpLP77mhKCHMWz57snFdo3NU2foQ5RIQPcVK1yD8Lm34+OH01jv10TmX8hTnFhAC1eJwYvgIz7uIu1MtDpsm2LGA1OGTMpw6LqAOBHYAwnddBHbAZEBbBeRBVwC6W6B75RCiw7F7BXRh/gN+A9SiDII0TY9hAAAAAElFTkSuQmCC" alt="icon">
                         </div>
                         <div class="">
                           <h3 class="text-black text-2xl font-bold py-3">Email</h3>
@@ -69,7 +70,7 @@
                       </div>
                       <div class="box2 p-8 transition-all">
                         <div class="">
-                            <img class="w-9 h-9" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEY0lEQVR4nO1ZXYhVVRTe9mcUlVRWphWVFMh4z1r3aGUSUkQvURBhQSKVFAb9PUbP4lOFUVgJ9VJvFo1mTPUQo3PP2veOMzgKEloPVlQE5VRWaL9f7J9z7hm75865cua6B+aD+3LP2nuvddbft9dRag5zOH1Ak++FpjFoPgGhA0h4lZpNwMFl50DzVmjGSb+foKPFajYA4/FF0PSpU5yOQ/NTGI8vhdBO+5/wkAodGF15BTTv90Z8i1Y9nvJM6EdvzAYVKtC66UJo3ucUpc8gfM3/ZHS0zj//GY34ahUaMLR0PjSN+Dw4iNGVlxTKah4MNsQgvNmH01doLV/SVdaGGB/18g+rkADNk1axJLq9lLzweu+9SeyJF6lQANMnjGLD0YIe1nzojRlUoQBCX7i4rw2UXtNavsQmvVnX5AdVCECawDpa19O6JHrcJ/5hFQJgmp5L3rd7WmcapVv3N6DmzZyGJYEkvh7C/0LTMSQ3XlB6XTN6xBsypkIBMlrCT5SSH15zLjR9GVwZhq4/kMY7htecNb08Pe8NnwDUGSoUYPvaMy01ccpt7Cortcsg9Iv3xp0qNCDh+71y32E8Pq9QTtM2z7l2qhABqHkQHvVeeaE4N/hXb/BjKlRAagyhPyH8D5L6bZ1l6JnsotWqXatCBTRtyhK/Q4hZz2na5Y3Z2y0MT/9VV+iAV3RrR5nhaEGuOOwwxUKFCCQR+auu8cyjxY2UfvD5si2I7t4JxoDs7t6Mb+4ok/CqLPmFtqhQAaFXspJcMEGB1O9oe49eUiEC4/HZEB72xuiixIbme2y1c6G4WYUIjNBCCB/xb/wjUww6ymla2zaGtgSZMxit3QDh732V2l5Upaxn2mH2RpDVDA2K3LTRhs+bRW/c5Uza/XlHx15kuZ0tJhO2+Qp/bohrXwxxStKtEP5tusRGo35LrjSP5edkhmjm+tRJP3oPzYHL+2NMEt0F4T9SYwo901hxXa5pTrqrccYIjFePmLsMzE3TPEsZtZ1o0kP9MUbX78uM0fRWYc44BvDBlLduFBZ+zhDQKbJ7V1xli0lbdtDM0frlGRdmmt8trGaWm/HTNm+EXjf3ma77Cm/I5eJRM0ebMSOyQ3W0OjtU08dd7zFDS+f3sO/i3OzM7L0LCV9ZmeKFvCwrzdSscvoIk0PpJNS8sAKqVG2fSYcRwt9UeSD2xItyRWKiqn2nYwC7/YEniljzKe2tl13sC8XvVe1ZgpvRq7kS+1oVFy8IPZvyvWo0LX2w7dpuOG67drT6lPdqmOaa9q3o7mo1LV0EfAc3NETzi9hfO7+nPRqmqWYc7+WZ07bUF2IzA6C/2vca3lhqCDhCC6H5kDfiExO2/dG6m1KtegyhVi53DpvxbNGsGa7Lp/RmXy8z6RmH7fBuCJi+ZeOhY9D0jv3QKrUB+3ncsGehr7ORbL9IZK8wYWU+DtnBuf0KwB1YsPXabmOYmg1wyVx/EkLvu+pGxz373dQLpZnDHFS1+A98D1Bd3hJ7NwAAAABJRU5ErkJggg==" alt="icon">
+                            <img class="w-6 h-6 md:w-9 md:h-9" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEY0lEQVR4nO1ZXYhVVRTe9mcUlVRWphWVFMh4z1r3aGUSUkQvURBhQSKVFAb9PUbP4lOFUVgJ9VJvFo1mTPUQo3PP2veOMzgKEloPVlQE5VRWaL9f7J9z7hm75865cua6B+aD+3LP2nuvddbft9dRag5zOH1Ak++FpjFoPgGhA0h4lZpNwMFl50DzVmjGSb+foKPFajYA4/FF0PSpU5yOQ/NTGI8vhdBO+5/wkAodGF15BTTv90Z8i1Y9nvJM6EdvzAYVKtC66UJo3ucUpc8gfM3/ZHS0zj//GY34ahUaMLR0PjSN+Dw4iNGVlxTKah4MNsQgvNmH01doLV/SVdaGGB/18g+rkADNk1axJLq9lLzweu+9SeyJF6lQANMnjGLD0YIe1nzojRlUoQBCX7i4rw2UXtNavsQmvVnX5AdVCECawDpa19O6JHrcJ/5hFQJgmp5L3rd7WmcapVv3N6DmzZyGJYEkvh7C/0LTMSQ3XlB6XTN6xBsypkIBMlrCT5SSH15zLjR9GVwZhq4/kMY7htecNb08Pe8NnwDUGSoUYPvaMy01ccpt7Cortcsg9Iv3xp0qNCDh+71y32E8Pq9QTtM2z7l2qhABqHkQHvVeeaE4N/hXb/BjKlRAagyhPyH8D5L6bZ1l6JnsotWqXatCBTRtyhK/Q4hZz2na5Y3Z2y0MT/9VV+iAV3RrR5nhaEGuOOwwxUKFCCQR+auu8cyjxY2UfvD5si2I7t4JxoDs7t6Mb+4ok/CqLPmFtqhQAaFXspJcMEGB1O9oe49eUiEC4/HZEB72xuiixIbme2y1c6G4WYUIjNBCCB/xb/wjUww6ymla2zaGtgSZMxit3QDh732V2l5Upaxn2mH2RpDVDA2K3LTRhs+bRW/c5Uza/XlHx15kuZ0tJhO2+Qp/bohrXwxxStKtEP5tusRGo35LrjSP5edkhmjm+tRJP3oPzYHL+2NMEt0F4T9SYwo901hxXa5pTrqrccYIjFePmLsMzE3TPEsZtZ1o0kP9MUbX78uM0fRWYc44BvDBlLduFBZ+zhDQKbJ7V1xli0lbdtDM0frlGRdmmt8trGaWm/HTNm+EXjf3ma77Cm/I5eJRM0ebMSOyQ3W0OjtU08dd7zFDS+f3sO/i3OzM7L0LCV9ZmeKFvCwrzdSscvoIk0PpJNS8sAKqVG2fSYcRwt9UeSD2xItyRWKiqn2nYwC7/YEniljzKe2tl13sC8XvVe1ZgpvRq7kS+1oVFy8IPZvyvWo0LX2w7dpuOG67drT6lPdqmOaa9q3o7mo1LV0EfAc3NETzi9hfO7+nPRqmqWYc7+WZ07bUF2IzA6C/2vca3lhqCDhCC6H5kDfiExO2/dG6m1KtegyhVi53DpvxbNGsGa7Lp/RmXy8z6RmH7fBuCJi+ZeOhY9D0jv3QKrUB+3ncsGehr7ORbL9IZK8wYWU+DtnBuf0KwB1YsPXabmOYmg1wyVx/EkLvu+pGxz373dQLpZnDHFS1+A98D1Bd3hJ7NwAAAABJRU5ErkJggg==" alt="icon">
                         </div>
                         <div>
                           <h3 class="text-black text-2xl font-bold py-3">Phone</h3>
@@ -83,8 +84,8 @@
                 </div>
             </div>
         </section>
-        <section class="w-full bg-white">
-            <div class="md:w-[87%] mx-auto md:py-[100px] grid grid-cols-3 gap-5 mb-10">
+        <section class="w-full bg-white px-3 md:px-0">
+            <div class="md:w-[87%] mx-auto py-[80px] md:py-[100px] grid md:grid-cols-3 gap-5 mb-10">
                 <div>
                     <div class="flex items-center">
                         <div class="h-[2px] w-[8%] bg-[#ffc631]"></div>

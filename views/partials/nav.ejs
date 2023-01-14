@@ -1,34 +1,68 @@
 <nav class="border-b bg-[#001f3f] h-[10vh] fixed w-full pt-2">
-    <div x-data="{showMenu : false}" class="container w-[90%] mx-auto flex justify-between h-14">
-        <!-- Brand-->
-        <a href="/" class="flex items-center px-2 ml-3 cursor-pointer">
-            <!-- Logo-->
-            <img class="brand_logo w-14 h-14" src="/img/maf.png" alt="mafseal Construction">
-            <div class="ml-2 font-semibold text-white logo-text">Mafseal<span class="mx-1 text-[#0da574]">Construction</span></div>
-        </a>
-        <!-- Navbar Toggle Button -->
-        <button @click="showMenu = !showMenu" class="block p-2 my-2 mr-5 text-gray-700 rounded md:hidden hover:border focus:border focus:bg-gray-100" type="button" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
-            <svg class="w-5 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-        </button>
-        <!-- Nav Links-->
-        <ul class="mr-5 text-base md:flex justify- text-gray-50"
-            :class="showMenu ? 'block absolute top-14 border-b bg-white w-full p-2' : 'hidden'"
-            id="navbar-main" x-cloak>
-            <li class="flex items-center px-5 text-sm cursor-pointer hover:text-gray-400" :class="showMenu && 'py-1'">
-                <a href="/">HOME</a>
-            </li>
-            <li class="flex items-center px-5 text-sm cursor-pointer hover:text-gray-400" :class="showMenu && 'py-1'">
-                <a href="/about">ABOUT</a>
-            </li>
-            <li class="flex items-center px-5 text-sm cursor-pointer hover:text-gray-400" :class="showMenu && 'py-1'">
-                <a href="/service">SERVICES</a>
-            </li>
-            <li class="flex items-center px-5 text-sm cursor-pointer hover:text-gray-400" :class="showMenu && 'py-1'">
-                <a href="/project">PROJECT</a>
-            </li>
-            <li class="flex items-center px-5 text-sm cursor-pointer hover:text-gray-400" :class="showMenu && 'py-1'">
-                <a href="/contact">CONTACT</a>
-            </li>
-        </ul>
-    </div>
+  <div
+    x-data="{showMenu : false}"
+    class="container w-[90%] mx-auto flex justify-between h-14"
+  >
+    <!-- Brand-->
+    <a href="/" class="flex items-center px-2 ml-3 cursor-pointer">
+      <!-- Logo-->
+      <img
+        class="brand_logo w-10 h-10 md:w-14 md:h-14"
+        src="/img/maf.png"
+        alt="mafseal Construction"
+      />
+      <div class="ml-2 font-semibold text-white logo-text">
+        Mafseal<span class="mx-1 text-[#0da574]">Construction</span>
+      </div>
+    </a>
+    <!-- Navbar Toggle Button -->
+    <button
+      @click="showMenu = !showMenu"
+      class="block ml-6 my-2 text-gray-200 rounded md:hidden focus:bg-gray-300"
+      type="button"
+      aria-controls="navbar-main"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+    <img class="w-7 h-7" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAANElEQVR4nO3VwQkAIAwDwO4/lh0sTuBDqPi5WyAQCKkCpiXpvNe/gtd4Y3BkTjAm3gmoOxvWvmrcKBZ+KAAAAABJRU5ErkJggg==" alt="icon">
+    </button>
+    <!-- Nav Links-->
+    <ul
+      class="mr-5 text-base md:flex justify-center md:text-white"
+      :class="showMenu ? 'block absolute top-14 border-b bg-white w-full p-2' : 'hidden'"
+      id="navbar-main"
+      x-cloak
+    >
+      <li
+        class="flex items-center px-5 text-sm cursor-pointer hover:text-gray-400 text-white"
+        :class="showMenu && 'py-1'"
+      >
+        <a href="/">HOME</a>
+      </li>
+      <li
+        class="flex items-center px-5 text-sm cursor-pointer hover:text-gray-400 text-white"
+        :class="showMenu && 'py-1'"
+      >
+        <a href="/about">ABOUT</a>
+      </li>
+      <li
+        class="flex items-center px-5 text-sm cursor-pointer hover:text-gray-400 text-white"
+        :class="showMenu && 'py-1'"
+      >
+        <a href="/service">SERVICES</a>
+      </li>
+      <li
+        class="flex items-center px-5 text-sm cursor-pointer hover:text-gray-400 text-white"
+        :class="showMenu && 'py-1'"
+      >
+        <a href="/project">PROJECT</a>
+      </li>
+      <li
+        class="flex items-center px-5 text-sm cursor-pointer hover:text-gray-400 text-white"
+        :class="showMenu && 'py-1'"
+      >
+        <a href="/contact">CONTACT</a>
+      </li>
+    </ul>
+  </div>
 </nav>

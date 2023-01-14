@@ -10,6 +10,10 @@ router.get('/admin', (req, res) => {
     res.render('adminReg',{message:''});
 })
 
+router.get('/logout', (req, res) => {
+    res.render('index')
+})
+
 router.get('/Login', (req, res) => {
     res.render('adminlogin',{message:''})
 })
@@ -134,6 +138,7 @@ router.get('/delete/:id', async (req, res) => {
     }
     
 })
+
 
 module.exports = router;
 
