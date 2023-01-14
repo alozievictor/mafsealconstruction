@@ -66,15 +66,15 @@ router.post('/question', async (req, res) => {
 
         const validationError = validateUserdata(userData);
         if(validationError) {
-            return res.render('/',{validationError})
+            return res.render('index',{validationError})
         }
 
         await QuestionSchema.create(userData)
-        return res.send('success')
+        return res.render('index');
 
     } catch (error) {
         console.log(error)
-        return res.render('/', {message:process.env.ErrMsg})
+        return res.render('index', {message:process.env.ErrMsg})
     }
 });
 
