@@ -66,6 +66,7 @@ router.post('/question', async (req, res) => {
 
         const validationError = validateUserdata(userData);
         if(validationError) {
+            console.log(validationError)
             return res.render('index',{validationError})
         }
 
