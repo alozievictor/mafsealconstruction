@@ -14,14 +14,12 @@ mongoose.connect(process.env.CONNECT_DB,{useUnifiedTopology:true,useNewUrlParser
         if (res) {
             console.log('db connected');
             app.listen(process.env.PORT, ()=> {
-                console.log(`server running at http://localhost ${PORT}`);
+                console.log(`server running at http://localhost:${PORT}`);
             })
-
         } else {
             console.log('db not conected');
         }
-})
-.catch((err) => {
+}).catch((err) => {
     console.log(err);
 });
 

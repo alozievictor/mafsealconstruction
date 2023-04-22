@@ -11,11 +11,11 @@ router.get('/admin', (req, res) => {
 })
 
 router.get('/logout', (req, res) => {
-    res.render('index')
+    res.render('index',{validationError:false})
 })
 
 router.get('/Login', (req, res) => {
-    res.render('adminlogin',{message:''})
+    res.render('adminlogin',{message:''});
 })
 
 router.get('/adminPage', async (req, res) => {
@@ -30,7 +30,6 @@ router.get('/adminPage', async (req, res) => {
     } catch (error) {
         console.log(error)
     }
-
 })
 
 
@@ -137,6 +136,14 @@ router.get('/delete/:id', async (req, res) => {
         console.log(error);
     }
     
+})
+
+router.post('/project', async(req, res) => {
+    try {
+        
+    } catch (error) {
+        console.log(error)
+    }
 })
 
 

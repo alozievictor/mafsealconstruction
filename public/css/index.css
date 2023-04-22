@@ -27,7 +27,7 @@
     padding: 12px 22px;
     text-align: center;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
     cursor: pointer;
     color: #000;
 }
@@ -85,7 +85,6 @@ nav {
         height: 80%;
     }
 }
-
 
 .child1 {
     width: 100%;
@@ -153,4 +152,8 @@ nav {
     background: #ffc631;
     color: white;
     background-color: #ffc631;
+}
+.video-div {
+    position: relative;
+    margin: 20px 0;
 }
