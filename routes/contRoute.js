@@ -1,8 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const QuestionSchema = require('../models/question');
-const validateUserdata = require('../utils/questionValidation')
-const validator = require('validator');
+const {validateUserdata} = require('../utils/questionValidation')
 
 
 router.get('/', (req, res) => {
