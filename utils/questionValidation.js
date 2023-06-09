@@ -29,43 +29,49 @@ const validateUserdata = (userData) => {
 };
 
 /**
- * @param {{ptype: String, description: String, address: String, pic: String, date: string }} projectData 
+ * @param {{ptype: String, description: String, address: String, image: String, date: String, plan: String, compltDate: String }} projectData
  */
 
 const UploadValidation = (projectData) => {
-    if(!projectData.address) {
-        return 'Project Address is required'
-    }
-    if(!projectData.ptype) {
-        return 'Project type or category is required'
-    }
-    if(!projectData.pic) {
-        return 'Project Image is required'
-    }
-    if(!projectData.description){
-        return "project Description is required"
-    }
-    if(!projectData.data) {
-        return 'Date is required'
-    }
+  if (!projectData.address) {
+    return "Project Address is required";
+  }
+  if (!projectData.ptype) {
+    return "Project type or category is required";
+  }
+  if (!projectData.compltDate) {
+    return "Completion Date is required";
+  }
+  if (!projectData.description) {
+    return "project Description is required";
+  }
+  if (!projectData.plan) {
+    return "project plan is required";
+  }
+  if (!projectData.date) {
+    return "Date is required";
+  }
+  if (projectData.date.length < 5) {
+    return "Invalid date";
+  }
 };
 
 const validateData = (userData) => {
-  if(!userData.email) {
-      return 'Email is required'
+  if (!userData.email) {
+    return "Email is required";
   }
-  if(!validator.isEmail(userData.email)) {
-      return 'Enter valid email'
+  if (!validator.isEmail(userData.email)) {
+    return "Enter valid email";
   }
-  if(!userData.password) {
-      return 'Password is required'
+  if (!userData.password) {
+    return "Password is required";
   }
-  if((userData.password).length <=5) {
-      return 'Password is Short'
+  if (userData.password.length <= 5) {
+    return "Password is Short";
   }
-  if((userData.password).length >=25) {
-      return 'Password is to long'
+  if (userData.password.length >= 25) {
+    return "Password is to long";
   }
-}
+};
 
 module.exports = { validateUserdata, UploadValidation, validateData };

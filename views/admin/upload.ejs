@@ -543,11 +543,14 @@
       <div class="flex flex-col flex-1">
         <%- include("../admin/navHeader.ejs")%>
         <main class="h-full pb-16 overflow-y-auto">
-          <div class="flex items-center justify-center p-12">
+          <div class="flex items-center justify-center p-12"> 
             <div
               class="mx-auto w-full max-w-[750px] bg-white shadow-md rounded-md"
             >
-              <form class="py-6 px-9" action="/uploadProject" method="POST">
+              <form class="py-6 px-9" action="/uploadProject" method="POST" enctype="multipart/form-data" >
+                <div class="py-3 text-gray-800 px-14">
+                  <%= msg %>
+                </div>
                 <div class="mb-5">
                   <label
                     for="property type"
@@ -588,30 +591,64 @@
                   </label>
                   <input
                     type="date"
-                    id="email"
+                    id="date"
                     name="date"
+                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-gray-800 capitalize outline-none focus:border-[#001a34] focus:shadow-md"
+                  />
+                </div>
+
+                <div class="mb-5">
+                  <label
+                    for="compltdate"
+                    class="mb-3 block text-base font-medium text-[#07074D]"
+                  >
+                    Completion Date:
+                  </label>
+                  <input
+                    type="date"
+                    id="compltDate"
+                    name="compltDate"
                     class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-gray-800 capitalize outline-none focus:border-[#001a34] focus:shadow-md"
                   />
                 </div>
 
                 <div class="mb-6 pt-4">
                   <label
+                    for="file"
                     class="mb-3 block text-base font-medium text-[#07074D]"
                   >
                     Upload file
                   </label>
-                  <input
-                    class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-gray-800 capitalize outline-none focus:border-[#001a34] focus:shadow-md"
-                    id="file_input"
-                    name="pic"
-                    type="file"
-                  />
+                  <input 
+                  class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-gray-800 capitalize outline-none focus:border-[#001a34] focus:shadow-md"
+                  type="file" name="image" accept="image/*" id=""/>
                 </div>
 
                 <div class="mb-7">
+                  <label
+                    for="description"
+                    class="mb-3 block text-base font-medium text-[#07074D]"
+                  >
+                    Description:
+                  </label>
                   <textarea
                     rows="6"
                     name="description"
+                    placeholder="Enter description"
+                    class="w-full rounded py-3 px-[14px] text-gray-800 text-body-color text-base border border-[f0f0f0] resize-none capitalize outline-none focus:border-[#001a34] focus:shadow-md"
+                  ></textarea>
+                </div>
+
+                <div class="mb-7">
+                  <label
+                    for="plan"
+                    class="mb-3 block text-base font-medium text-[#07074D]"
+                  >
+                    Peoject Plan:
+                  </label>
+                  <textarea
+                    rows="5"
+                    name="plan"
                     placeholder="Enter description"
                     class="w-full rounded py-3 px-[14px] text-gray-800 text-body-color text-base border border-[f0f0f0] resize-none capitalize outline-none focus:border-[#001a34] focus:shadow-md"
                   ></textarea>
